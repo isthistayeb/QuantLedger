@@ -2,41 +2,5 @@
   "version": 1,
   "updated_at": "2026-09-20T15:12:00.275127Z",
   "trades": [
-    {
-      "trade_id": -999999,
-      "channel_id": -1,
-      "channel": "QuantLedger Connectivity Test",
-      "mode": "DEMO",
-      "symbol": "QLTESTUSDT",
-      "timeframe": "",
-      "opened_at": "2026-09-20T15:12:00.275127Z",
-      "closed_at": "2026-09-20T15:12:00.275127Z",
-      "duration_seconds": 42,
-      "entry_legs": [
-        "ENTRY1"
-      ],
-      "entries_used": 1,
-      "avg_entry": 1.0,
-      "avg_exit": 1.0125,
-      "buy_cost": 100.0,
-      "sell_value": 101.25,
-      "fees": 0.05,
-      "net_pnl": 1.2,
-      "roi_percent": 1.2,
-      "result": "WIN",
-      "reason": "GitHub connectivity test",
-      "preferred_target": 1,
-      "target_percent": 1.0,
-      "stop_move": "DISABLED",
-      "stop_step": 0.0,
-      "dca_profit_percent": 0.0,
-      "dca_trailing_percent": 0.0,
-      "split_exit_plan": [],
-      "split_orders": [],
-      "highest_price": 1.014,
-      "lowest_price": 0.997,
-      "mfe_percent": 1.4,
-      "mae_percent": -0.3
-    }
   ]
 }
