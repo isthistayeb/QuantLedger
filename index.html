@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#080b10" />
+  <title>QuantLedger — Strategy Performance</title>
+  <meta name="description" content="Private strategy ledger, channel analytics and cross-source pattern discovery." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <div class="eyebrow">PRIVATE STRATEGY • VERIFIED LEDGER</div>
+        <div class="title-line"><h1>QuantLedger</h1><span class="version-badge">ANALYTICS V3</span></div>
+        <p>Execution statistics, channel comparison, timing analysis and cross-source pattern discovery.</p>
+      </div>
+      <div class="status"><span class="dot"></span><span id="updated">Loading ledger…</span></div>
+    </header>
+
+    <section class="controls panel">
+      <label>Mode
+        <select id="mode"><option value="ALL">All</option><option>DEMO</option><option>LIVE</option></select>
+      </label>
+      <label>Channel
+        <select id="channel"><option value="ALL">All channels</option></select>
+      </label>
+      <label>Symbol
+        <input id="symbol" placeholder="e.g. BTCUSDT" />
+      </label>
+      <label>Timeframe
+        <select id="timeframe"><option value="ALL">All / no restriction</option></select>
+      </label>
+      <label class="convergence-control">Convergence window
+        <select id="window"><option value="5">5 min</option><option value="15" selected>15 min</option><option value="30">30 min</option><option value="60">60 min</option></select>
+        <small>Time between trade openings — independent of signal timeframe.</small>
+      </label>
+      <button id="refresh">Refresh</button>
+    </section>
+
+    <section class="kpis" id="kpis"></section>
+
+    <section class="grid two">
+      <div class="panel">
+        <div class="section-title"><h2>Channel performance</h2><span>closed trades only</span></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Channel</th><th>Trades</th><th>Win rate</th><th>Net P&amp;L</th><th>Avg ROI</th><th>Avg MFE</th><th>Avg MAE</th><th>Avg duration</th></tr></thead>
+          <tbody id="channels"></tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Monthly performance</h2><span>net after recorded fees</span></div>
+        <div id="months" class="bars"></div>
+      </div>
+    </section>
+
+    <section class="panel section-gap">
+      <div class="section-title"><h2>Daily performance</h2><span>latest 14 trading days</span></div>
+      <div id="days" class="bars"></div>
+    </section>
+
+    <section class="panel section-gap pattern-panel">
+      <div class="section-title">
+        <div>
+          <h2>Pattern Lab — Cross-channel convergence</h2>
+          <div class="subnote">Finds the same symbol opened by different sources close together. It does <b>not</b> require matching timeframes.</div>
+        </div>
+        <span id="patternHint">within 15 minutes</span>
+      </div>
+      <div class="pattern-summary" id="patternSummary"></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Symbol</th><th>First opened</th><th>Sources</th><th>Spread</th><th>Order</th><th>Combined result</th></tr></thead>
+        <tbody id="patterns"></tbody>
+      </table></div>
+    </section>
+
+    <section class="grid two section-gap">
+      <div class="panel">
+        <div class="section-title"><h2>Channel lead / lag</h2><span>order of first trade openings</span></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Channel</th><th>First</th><th>Followed by</th><th>Avg lead</th><th>Symbols</th></tr></thead>
+          <tbody id="leaders"></tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Source agreement</h2><span>single-source vs multi-source</span></div>
+        <div id="agreement" class="mini-grid"></div>
+      </div>
+    </section>
+
+    <section class="grid two section-gap">
+      <div class="panel">
+        <div class="section-title"><h2>Opening-hour performance</h2><span>browser local time</span></div>
+        <div id="hours" class="bars compact-bars"></div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Weekday performance</h2><span>browser local time</span></div>
+        <div id="weekdays" class="bars"></div>
+      </div>
+    </section>
+
+    <section class="grid two section-gap">
+      <div class="panel">
+        <div class="section-title"><h2>Symbol performance</h2><span>where the strategy performs</span></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Symbol</th><th>Trades</th><th>Sources</th><th>Win rate</th><th>Net P&amp;L</th><th>Avg ROI</th><th>Avg duration</th></tr></thead>
+          <tbody id="symbols"></tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Execution profile</h2><span>trade structure</span></div>
+        <div id="profile" class="mini-grid"></div>
+      </div>
+    </section>
+
+    <section class="grid two section-gap">
+      <div class="panel">
+        <div class="section-title"><h2>Duration buckets</h2><span>how long trades stay open</span></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Duration</th><th>Trades</th><th>Win rate</th><th>Net P&amp;L</th><th>Avg ROI</th></tr></thead>
+          <tbody id="durations"></tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <div class="section-title"><h2>Exit reasons</h2><span>what actually closes trades</span></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Reason</th><th>Trades</th><th>Win rate</th><th>Net P&amp;L</th></tr></thead>
+          <tbody id="reasons"></tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <section class="panel section-gap">
+      <div class="section-title"><h2>Closed trades</h2><span id="count"></span></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Opened</th><th>Closed</th><th>Mode</th><th>Channel</th><th>Pair</th><th>TF</th><th>Entries</th><th>Result</th><th>Net P&amp;L</th><th>ROI</th><th>MFE</th><th>MAE</th><th>Fees</th><th>Duration</th><th>Exit policy</th><th>Reason</th></tr></thead>
+        <tbody id="trades"></tbody>
+      </table></div>
+    </section>
+
+    <footer>Statistics are generated from completed bot trades. DEMO and LIVE results are explicitly separated. Pattern Lab is descriptive only and does not change trading logic.</footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
