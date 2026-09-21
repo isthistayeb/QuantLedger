@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T11:25:57.341918Z",
+  "updated_at": "2026-09-21T11:27:18.014017Z",
   "trades": [
     {
       "trade_id": 2,
@@ -171,6 +171,30 @@
       "fees": 0.14039931545921275,
       "net_pnl": 0.2589161437535738,
       "roi_percent": 0.36988020536224836,
+      "result": "WIN",
+      "reason": "Software Stop Loss"
+    },
+    {
+      "trade_id": 10,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "NILUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T11:07:44.208677+00:00",
+      "closed_at": "2026-09-21T11:27:16.673000+00:00",
+      "duration_seconds": 1172,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.06467,
+      "avg_exit": 0.06507999999999999,
+      "buy_cost": 70.184496124031,
+      "sell_value": 70.629457364341,
+      "fees": 0.14081395348837206,
+      "net_pnl": 0.3041472868216782,
+      "roi_percent": 0.43335395082723815,
       "result": "WIN",
       "reason": "Software Stop Loss"
     }
