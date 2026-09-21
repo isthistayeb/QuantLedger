@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T19:57:43.300606Z",
+  "updated_at": "2026-09-21T19:57:44.669581Z",
   "trades": [
     {
       "trade_id": 2,
@@ -763,6 +763,30 @@
       "fees": 0.15494040908358828,
       "net_pnl": 4.785468674504747,
       "roi_percent": 6.380624899339665,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
+    },
+    {
+      "trade_id": 32,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "UBUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T15:52:16.512607+00:00",
+      "closed_at": "2026-09-21T19:57:35.894000+00:00",
+      "duration_seconds": 14723,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.13658,
+      "avg_exit": 0.14572,
+      "buy_cost": 75.0,
+      "sell_value": 80.019036462147,
+      "fees": 0.1550190364621468,
+      "net_pnl": 4.864017425684569,
+      "roi_percent": 6.485356567579421,
       "result": "WIN",
       "reason": "Manual Close from Telegram"
     }
