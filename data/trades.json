@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T22:03:29.794519Z",
+  "updated_at": "2026-09-21T22:13:15.916494Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1058,6 +1058,31 @@
       "roi_percent": -0.08751151602004884,
       "result": "BREAKEVEN",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 77,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "GRASSUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T22:03:45.327921+00:00",
+      "closed_at": "2026-09-21T22:13:12.185000+00:00",
+      "duration_seconds": 568,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.43720752688172043,
+      "avg_exit": 0.419,
+      "buy_cost": 60.155180282976,
+      "sell_value": 57.650015127451,
+      "fees": 0.11780519541042687,
+      "net_pnl": -2.6229703509346796,
+      "roi_percent": -4.360339938465787,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
