@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T11:27:18.014017Z",
+  "updated_at": "2026-09-21T11:28:21.724614Z",
   "trades": [
     {
       "trade_id": 2,
@@ -197,6 +197,31 @@
       "roi_percent": 0.43335395082723815,
       "result": "WIN",
       "reason": "Software Stop Loss"
+    },
+    {
+      "trade_id": 14,
+      "channel_id": -1001909237586,
+      "channel": "IN CRYPTO",
+      "mode": "DEMO",
+      "symbol": "PHAUSDT",
+      "timeframe": "1h",
+      "opened_at": "2026-09-21T11:23:47.301126+00:00",
+      "closed_at": "2026-09-21T11:28:21.006000+00:00",
+      "duration_seconds": 273,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.0595321965390931,
+      "avg_exit": 0.0597,
+      "buy_cost": 80.0,
+      "sell_value": 80.225496078643,
+      "fees": 0.1602254960786427,
+      "net_pnl": 0.06527058256406357,
+      "roi_percent": 0.08158822820507947,
+      "result": "BREAKEVEN",
+      "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
 }
