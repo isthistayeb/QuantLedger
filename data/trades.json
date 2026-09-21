@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T14:35:23.782227Z",
+  "updated_at": "2026-09-21T14:45:14.247878Z",
   "trades": [
     {
       "trade_id": 2,
@@ -75,6 +75,30 @@
       "roi_percent": 1.136091835190612,
       "result": "WIN",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 3,
+      "channel_id": -1001909237586,
+      "channel": "IN CRYPTO",
+      "mode": "DEMO",
+      "symbol": "ZAMAUSDT",
+      "timeframe": "15m",
+      "opened_at": "2026-09-21T13:59:03.271941+00:00",
+      "closed_at": "2026-09-21T14:45:13.157000+00:00",
+      "duration_seconds": 2770,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.10045999999999998,
+      "avg_exit": 0.10047,
+      "buy_cost": 40.0,
+      "sell_value": 40.003981684252,
+      "fees": 0.0800039816842524,
+      "net_pnl": -0.07602229743180791,
+      "roi_percent": -0.19005574357951988,
+      "result": "LOSS",
+      "reason": "Software Stop Loss"
     }
   ]
 }
