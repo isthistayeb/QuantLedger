@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T12:01:34.192855Z",
+  "updated_at": "2026-09-21T12:33:59.364214Z",
   "trades": [
     {
       "trade_id": 2,
@@ -296,6 +296,30 @@
       "roi_percent": 0.904490072202164,
       "result": "WIN",
       "reason": "Software Stop Loss"
+    },
+    {
+      "trade_id": 20,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "XPLUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T11:52:43.933104+00:00",
+      "closed_at": "2026-09-21T12:33:58.166000+00:00",
+      "duration_seconds": 2474,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.10056,
+      "avg_exit": 0.10302,
+      "buy_cost": 60.0,
+      "sell_value": 61.467780429594,
+      "fees": 0.12146778042959432,
+      "net_pnl": 1.3463126491646835,
+      "roi_percent": 2.243854415274472,
+      "result": "WIN",
+      "reason": "Split targets completed"
     }
   ]
 }
