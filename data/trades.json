@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T12:49:34.325453Z",
+  "updated_at": "2026-09-21T12:54:52.577868Z",
   "trades": [
     {
       "trade_id": 2,
@@ -366,6 +366,30 @@
       "fees": 0.12057379823967501,
       "net_pnl": 0.4532244414353391,
       "roi_percent": 0.7553740690588984,
+      "result": "WIN",
+      "reason": "Software Stop Loss"
+    },
+    {
+      "trade_id": 12,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "DYMUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T11:14:56.695947+00:00",
+      "closed_at": "2026-09-21T12:54:51.902000+00:00",
+      "duration_seconds": 5995,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.01841,
+      "avg_exit": 0.01855,
+      "buy_cost": 60.0,
+      "sell_value": 60.456273764259,
+      "fees": 0.12045627376425858,
+      "net_pnl": 0.3358174904943031,
+      "roi_percent": 0.5596958174905051,
       "result": "WIN",
       "reason": "Software Stop Loss"
     }
