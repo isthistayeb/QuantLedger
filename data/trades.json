@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T18:19:09.259079Z",
+  "updated_at": "2026-09-21T18:20:29.415013Z",
   "trades": [
     {
       "trade_id": 2,
@@ -594,6 +594,30 @@
       "roi_percent": 0.2001575747609079,
       "result": "WIN",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 20,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "OPGUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T15:10:59.560595+00:00",
+      "closed_at": "2026-09-21T18:20:24.909000+00:00",
+      "duration_seconds": 11367,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.13063,
+      "avg_exit": 0.13121,
+      "buy_cost": 40.0,
+      "sell_value": 40.177600857383,
+      "fees": 0.08017760085738351,
+      "net_pnl": 0.09742325652606959,
+      "roi_percent": 0.2435581413151738,
+      "result": "WIN",
+      "reason": "Channel TP-E / Average Entry"
     }
   ]
 }
