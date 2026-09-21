@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T19:57:47.018849Z",
+  "updated_at": "2026-09-21T19:57:48.310940Z",
   "trades": [
     {
       "trade_id": 2,
@@ -835,6 +835,30 @@
       "fees": 0.1545726614699332,
       "net_pnl": 4.4180888084632475,
       "roi_percent": 5.890785077950995,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
+    },
+    {
+      "trade_id": 56,
+      "channel_id": -1004408202500,
+      "channel": "test channel",
+      "mode": "DEMO",
+      "symbol": "SUIUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T17:51:54.882417+00:00",
+      "closed_at": "2026-09-21T19:57:39.607000+00:00",
+      "duration_seconds": 7546,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.9931000000000001,
+      "avg_exit": 1.0246,
+      "buy_cost": 75.0,
+      "sell_value": 77.37891451012,
+      "fees": 0.1523789145101207,
+      "net_pnl": 2.2265355956097066,
+      "roi_percent": 2.968714127479592,
       "result": "WIN",
       "reason": "Manual Close from Telegram"
     }
