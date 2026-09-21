@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T19:57:44.669581Z",
+  "updated_at": "2026-09-21T19:57:45.989468Z",
   "trades": [
     {
       "trade_id": 2,
@@ -787,6 +787,30 @@
       "fees": 0.1550190364621468,
       "net_pnl": 4.864017425684569,
       "roi_percent": 6.485356567579421,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
+    },
+    {
+      "trade_id": 55,
+      "channel_id": -1004408202500,
+      "channel": "test channel",
+      "mode": "DEMO",
+      "symbol": "TAOUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T17:51:54.450155+00:00",
+      "closed_at": "2026-09-21T19:57:36.562000+00:00",
+      "duration_seconds": 7546,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 279.52,
+      "avg_exit": 301.53,
+      "buy_cost": 74.999999999894,
+      "sell_value": 80.905659702233,
+      "fees": 0.15590565970212672,
+      "net_pnl": 5.749754042636413,
+      "roi_percent": 7.666338723526043,
       "result": "WIN",
       "reason": "Manual Close from Telegram"
     }
