@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T20:30:18.532498Z",
+  "updated_at": "2026-09-21T21:00:22.074778Z",
   "trades": [
     {
       "trade_id": 2,
@@ -935,6 +935,31 @@
       "roi_percent": -0.2735987810585693,
       "result": "LOSS",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 43,
+      "channel_id": -1003742935429,
+      "channel": "LEGEND TRADING",
+      "mode": "DEMO",
+      "symbol": "ORDIUSDT",
+      "timeframe": "1h",
+      "opened_at": "2026-09-21T16:46:00.828670+00:00",
+      "closed_at": "2026-09-21T21:00:14.649000+00:00",
+      "duration_seconds": 15256,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 4.977491095142437,
+      "avg_exit": 4.857,
+      "buy_cost": 60.000000000001,
+      "sell_value": 58.547568329033,
+      "fees": 0.11854756832903383,
+      "net_pnl": -1.57097923929708,
+      "roi_percent": -2.618298732161759,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
