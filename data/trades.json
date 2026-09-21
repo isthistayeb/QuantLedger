@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T12:33:59.364214Z",
+  "updated_at": "2026-09-21T12:46:03.272522Z",
   "trades": [
     {
       "trade_id": 2,
@@ -318,6 +318,30 @@
       "fees": 0.12146778042959432,
       "net_pnl": 1.3463126491646835,
       "roi_percent": 2.243854415274472,
+      "result": "WIN",
+      "reason": "Split targets completed"
+    },
+    {
+      "trade_id": 11,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "IMXUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T11:10:41.950121+00:00",
+      "closed_at": "2026-09-21T12:46:02.079000+00:00",
+      "duration_seconds": 5720,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.1535,
+      "avg_exit": 0.156082,
+      "buy_cost": 70.0,
+      "sell_value": 71.177459283388,
+      "fees": 0.14117745928338768,
+      "net_pnl": 1.0362818241042322,
+      "roi_percent": 1.4804026058631883,
       "result": "WIN",
       "reason": "Split targets completed"
     }
