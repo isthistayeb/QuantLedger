@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T19:57:48.310940Z",
+  "updated_at": "2026-09-21T20:10:08.455141Z",
   "trades": [
     {
       "trade_id": 2,
@@ -861,6 +861,31 @@
       "roi_percent": 2.968714127479592,
       "result": "WIN",
       "reason": "Manual Close from Telegram"
+    },
+    {
+      "trade_id": 13,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "MANTAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T14:12:47.578680+00:00",
+      "closed_at": "2026-09-21T20:10:04.111000+00:00",
+      "duration_seconds": 21438,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.07046010077003519,
+      "avg_exit": 0.0705,
+      "buy_cost": 60.0,
+      "sell_value": 60.03397602007,
+      "fees": 0.1200339760200698,
+      "net_pnl": -0.0860579559501907,
+      "roi_percent": -0.14342992658365125,
+      "result": "BREAKEVEN",
+      "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
 }
