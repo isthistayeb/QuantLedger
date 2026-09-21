@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T19:56:50.653415Z",
+  "updated_at": "2026-09-21T19:57:25.558032Z",
   "trades": [
     {
       "trade_id": 2,
@@ -717,6 +717,30 @@
       "roi_percent": 0.06317538602705595,
       "result": "BREAKEVEN",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 8,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "CGPTUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T14:07:20.589103+00:00",
+      "closed_at": "2026-09-21T19:57:22.009000+00:00",
+      "duration_seconds": 21002,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.020907,
+      "avg_exit": 0.021178,
+      "buy_cost": 40.015311737404,
+      "sell_value": 40.533996841954,
+      "fees": 0.08054930857935787,
+      "net_pnl": 0.4381357959710989,
+      "roi_percent": 1.094920361601377,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
     }
   ]
 }
