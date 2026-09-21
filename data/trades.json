@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T17:19:35.727249Z",
+  "updated_at": "2026-09-21T18:09:37.676807Z",
   "trades": [
     {
       "trade_id": 2,
@@ -517,6 +517,31 @@
       "fees": 0.1201683901601674,
       "net_pnl": 0.04822177000705302,
       "roi_percent": 0.08036961667842159,
+      "result": "BREAKEVEN",
+      "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 39,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "LINEAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T16:39:00.730869+00:00",
+      "closed_at": "2026-09-21T18:09:34.441000+00:00",
+      "duration_seconds": 5434,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.0027969282382490136,
+      "avg_exit": 0.002805,
+      "buy_cost": 60.0,
+      "sell_value": 60.173156285684,
+      "fees": 0.12017315628568376,
+      "net_pnl": 0.052983129398068984,
+      "roi_percent": 0.08830521566344832,
       "result": "BREAKEVEN",
       "reason": "DCA trailing 0.5% after avg+profit"
     }
