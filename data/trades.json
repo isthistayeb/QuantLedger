@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T15:04:37.569203Z",
+  "updated_at": "2026-09-21T15:25:27.333981Z",
   "trades": [
     {
       "trade_id": 2,
@@ -124,6 +124,31 @@
       "roi_percent": -6.669685222808665,
       "result": "LOSS",
       "reason": "Matched Channel Stop Loss"
+    },
+    {
+      "trade_id": 18,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "CELRUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T15:01:32.413087+00:00",
+      "closed_at": "2026-09-21T15:25:26.048000+00:00",
+      "duration_seconds": 1434,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.0037261453744493393,
+      "avg_exit": 0.003715,
+      "buy_cost": 60.0,
+      "sell_value": 59.820532373335,
+      "fees": 0.11982053237333523,
+      "net_pnl": -0.29928815903810935,
+      "roi_percent": -0.49881359839684897,
+      "result": "LOSS",
+      "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
 }
