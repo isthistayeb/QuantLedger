@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T11:23:48.799886Z",
+  "updated_at": "2026-09-21T11:25:57.341918Z",
   "trades": [
     {
       "trade_id": 2,
@@ -149,6 +149,30 @@
       "roi_percent": -2.5146576962604303,
       "result": "LOSS",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 9,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "RLCUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T11:05:55.173333+00:00",
+      "closed_at": "2026-09-21T11:25:56.224000+00:00",
+      "duration_seconds": 1201,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.35059999999999997,
+      "avg_exit": 0.3526,
+      "buy_cost": 70.0,
+      "sell_value": 70.399315459213,
+      "fees": 0.14039931545921275,
+      "net_pnl": 0.2589161437535738,
+      "roi_percent": 0.36988020536224836,
+      "result": "WIN",
+      "reason": "Software Stop Loss"
     }
   ]
 }
