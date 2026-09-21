@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T16:32:40.029761Z",
+  "updated_at": "2026-09-21T16:58:37.342606Z",
   "trades": [
     {
       "trade_id": 2,
@@ -395,6 +395,30 @@
       "fees": 0.11797660592579302,
       "net_pnl": -2.141370680132748,
       "roi_percent": -3.5689511335545814,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
+    },
+    {
+      "trade_id": 28,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "ARCSOLUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T15:26:38.291382+00:00",
+      "closed_at": "2026-09-21T16:58:34.862000+00:00",
+      "duration_seconds": 5517,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.07826,
+      "avg_exit": 0.07219,
+      "buy_cost": 40.0,
+      "sell_value": 36.897521083568,
+      "fees": 0.07689752108356765,
+      "net_pnl": -3.179376437515971,
+      "roi_percent": -7.948441093789922,
       "result": "LOSS",
       "reason": "Matched Channel Stop Loss"
     }
