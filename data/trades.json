@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T20:19:42.554422Z",
+  "updated_at": "2026-09-21T20:30:18.532498Z",
   "trades": [
     {
       "trade_id": 2,
@@ -910,6 +910,31 @@
       "roi_percent": 1.1160276980239876,
       "result": "WIN",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 64,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "PHAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T20:13:38.784013+00:00",
+      "closed_at": "2026-09-21T20:30:14.326000+00:00",
+      "duration_seconds": 997,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.05122774073347716,
+      "avg_exit": 0.05119,
+      "buy_cost": 60.0,
+      "sell_value": 59.955796527893,
+      "fees": 0.1199557965278928,
+      "net_pnl": -0.16415926863514163,
+      "roi_percent": -0.2735987810585693,
+      "result": "LOSS",
+      "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
 }
