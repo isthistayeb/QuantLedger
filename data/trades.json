@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T21:11:18.251381Z",
+  "updated_at": "2026-09-21T21:22:24.446504Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1008,6 +1008,31 @@
       "net_pnl": 0.39769276846275964,
       "roi_percent": 0.6628212807712659,
       "result": "WIN",
+      "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 61,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "IOTXUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T19:13:52.804508+00:00",
+      "closed_at": "2026-09-21T21:22:20.788000+00:00",
+      "duration_seconds": 7709,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.003668502099689611,
+      "avg_exit": 0.003679,
+      "buy_cost": 60.0,
+      "sell_value": 60.171697876001,
+      "fees": 0.12017169787600139,
+      "net_pnl": 0.05152617812538736,
+      "roi_percent": 0.08587696354231227,
+      "result": "BREAKEVEN",
       "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
