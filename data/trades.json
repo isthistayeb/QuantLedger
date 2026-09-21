@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T15:29:18.306339Z",
+  "updated_at": "2026-09-21T15:38:01.867919Z",
   "trades": [
     {
       "trade_id": 2,
@@ -174,6 +174,31 @@
       "roi_percent": -2.327740160927046,
       "result": "LOSS",
       "reason": "Matched Channel Stop Loss"
+    },
+    {
+      "trade_id": 25,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "ARBUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T15:17:36.419799+00:00",
+      "closed_at": "2026-09-21T15:37:57.635000+00:00",
+      "duration_seconds": 1222,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.23083415355186507,
+      "avg_exit": 0.231,
+      "buy_cost": 60.0,
+      "sell_value": 60.043107948867,
+      "fees": 0.12004310794886713,
+      "net_pnl": -0.07693515908175691,
+      "roi_percent": -0.12822526513626148,
+      "result": "BREAKEVEN",
+      "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
 }
