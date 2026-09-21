@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T11:45:29.733999Z",
+  "updated_at": "2026-09-21T12:01:34.192855Z",
   "trades": [
     {
       "trade_id": 2,
@@ -272,6 +272,30 @@
       "roi_percent": -1.2939521900944835,
       "result": "LOSS",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 4,
+      "channel_id": -1004408202500,
+      "channel": "test channel",
+      "mode": "DEMO",
+      "symbol": "WLDUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T10:06:56.143692+00:00",
+      "closed_at": "2026-09-21T12:01:32.955000+00:00",
+      "duration_seconds": 6877,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.4432,
+      "avg_exit": 0.4481,
+      "buy_cost": 70.0,
+      "sell_value": 70.773916967509,
+      "fees": 0.14077391696750902,
+      "net_pnl": 0.6331430505415148,
+      "roi_percent": 0.904490072202164,
+      "result": "WIN",
+      "reason": "Software Stop Loss"
     }
   ]
 }
