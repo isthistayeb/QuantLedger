@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T10:29:42.319905Z",
+  "updated_at": "2026-09-21T11:19:08.764754Z",
   "trades": [
     {
       "trade_id": 2,
@@ -100,6 +100,30 @@
       "roi_percent": -1.2331846302100982,
       "result": "LOSS",
       "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 8,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "SAGAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T10:40:09.750348+00:00",
+      "closed_at": "2026-09-21T11:19:07.705000+00:00",
+      "duration_seconds": 2338,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.03431,
+      "avg_exit": 0.034851,
+      "buy_cost": 60.122663551402,
+      "sell_value": 61.070677570093,
+      "fees": 0.12119334112149535,
+      "net_pnl": 0.8268206775700921,
+      "roi_percent": 1.3752229670649934,
+      "result": "WIN",
+      "reason": "Software Stop Loss"
     }
   ]
 }
