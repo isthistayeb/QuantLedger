@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T14:29:17.993575Z",
+  "updated_at": "2026-09-21T14:35:23.782227Z",
   "trades": [
     {
       "trade_id": 2,
@@ -50,6 +50,31 @@
       "roi_percent": 1.4690909090909035,
       "result": "WIN",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 1,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "NILUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T13:50:02.260847+00:00",
+      "closed_at": "2026-09-21T14:35:22.985000+00:00",
+      "duration_seconds": 2720,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 0.06395465177123123,
+      "avg_exit": 0.06481,
+      "buy_cost": 60.0,
+      "sell_value": 60.802457558673,
+      "fees": 0.12080245755867311,
+      "net_pnl": 0.6816551011143676,
+      "roi_percent": 1.136091835190612,
+      "result": "WIN",
+      "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
 }
