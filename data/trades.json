@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T15:47:28.174387Z",
+  "updated_at": "2026-09-21T15:51:56.604564Z",
   "trades": [
     {
       "trade_id": 2,
@@ -273,6 +273,31 @@
       "net_pnl": -0.5829233827637937,
       "roi_percent": -0.9714221576417197,
       "result": "LOSS",
+      "reason": "DCA trailing 0.5% after avg+profit"
+    },
+    {
+      "trade_id": 27,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "ZENUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T15:22:53.492631+00:00",
+      "closed_at": "2026-09-21T15:51:55.035000+00:00",
+      "duration_seconds": 1742,
+      "entry_legs": [
+        "ENTRY1",
+        "ENTRY2"
+      ],
+      "entries_used": 2,
+      "avg_entry": 7.752717875647666,
+      "avg_exit": 7.767,
+      "buy_cost": 60.000000000001,
+      "sell_value": 60.110532522258,
+      "fees": 0.12011053252225956,
+      "net_pnl": -0.009578010265540726,
+      "roi_percent": -0.015963350442567498,
+      "result": "BREAKEVEN",
       "reason": "DCA trailing 0.5% after avg+profit"
     }
   ]
