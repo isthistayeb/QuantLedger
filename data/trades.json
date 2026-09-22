@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T02:03:37.788144Z",
+  "updated_at": "2026-09-22T02:37:18.656924Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1373,6 +1373,30 @@
       "roi_percent": 8.19430569430569,
       "result": "WIN",
       "reason": "Target 6 Filled"
+    },
+    {
+      "trade_id": 88,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "APTUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T00:58:49.060077+00:00",
+      "closed_at": "2026-09-22T02:37:11.937000+00:00",
+      "duration_seconds": 5905,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.7782,
+      "avg_exit": 0.7785,
+      "buy_cost": 75.0,
+      "sell_value": 75.028912875868,
+      "fees": 0.15002891287586803,
+      "net_pnl": -0.12111603700849113,
+      "roi_percent": -0.16148804934465413,
+      "result": "LOSS",
+      "reason": "Channel TP-E / Average Entry"
     }
   ]
 }
