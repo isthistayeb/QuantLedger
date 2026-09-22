@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T06:32:22.870087Z",
+  "updated_at": "2026-09-22T07:29:00.688756Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1661,6 +1661,30 @@
       "roi_percent": 6.900735294117652,
       "result": "WIN",
       "reason": "Target 6 Filled"
+    },
+    {
+      "trade_id": 78,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "GRASSUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T22:20:12.740259+00:00",
+      "closed_at": "2026-09-22T07:28:43.041000+00:00",
+      "duration_seconds": 32917,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.4205,
+      "avg_exit": 0.44860000000000005,
+      "buy_cost": 40.0,
+      "sell_value": 42.673008323425,
+      "fees": 0.08267300832342472,
+      "net_pnl": 2.5903353151010795,
+      "roi_percent": 6.475838287752681,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
     }
   ]
 }
