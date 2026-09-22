@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T12:39:12.337780Z",
+  "updated_at": "2026-09-22T12:53:05.649974Z",
   "trades": [
     {
       "trade_id": 2,
@@ -2067,6 +2067,30 @@
       "fees": 0.15092815400481271,
       "net_pnl": 0.8116019250601633,
       "roi_percent": 1.0823839541547342,
+      "result": "WIN",
+      "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 130,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "JASMYUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T11:30:06.158447+00:00",
+      "closed_at": "2026-09-22T12:52:56.579000+00:00",
+      "duration_seconds": 4973,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.004315,
+      "avg_exit": 0.004359,
+      "buy_cost": 74.982622798888,
+      "sell_value": 75.747219647822,
+      "fees": 0.1507298424467099,
+      "net_pnl": 0.613867006487494,
+      "roi_percent": 0.8186790266512244,
       "result": "WIN",
       "reason": "Channel TP-E / Average Entry"
     }
