@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QuantLedger · Strategy Lab</title>
+<style>
+:root{--bg:#070a10;--card:#0d131d;--card2:#101824;--line:#202b3b;--txt:#edf2f7;--muted:#8794a7;--green:#39d98a;--red:#ff6574;--yellow:#ffd166;--violet:#9b87f5}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% -10%,#18203a 0,transparent 34%),var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.wrap{max-width:1580px;margin:auto;padding:24px}.header{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;flex-wrap:wrap}
+h1{margin:0;font-size:30px}.sub{color:var(--muted);margin-top:6px}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{font-size:12px;padding:7px 10px;border-radius:999px;background:#0a1019;border:1px solid var(--line);color:#b5c0d0}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(130px,1fr));gap:11px;margin:20px 0}.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}.kpi small{display:block;color:var(--muted)}.kpi b{display:block;margin-top:5px;font-size:20px}
+.controls{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.controls input,.controls select,.controls button{background:#0a1019;color:var(--txt);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.controls button{cursor:pointer}
+.grid{display:grid;grid-template-columns:360px 1fr;gap:16px;align-items:start}.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}.panel h2{font-size:15px;margin:0;padding:14px;border-bottom:1px solid var(--line)}
+.strategies{max-height:760px;overflow:auto}.strategy{padding:12px 14px;border-bottom:1px solid #182231;cursor:pointer}.strategy:hover,.strategy.active{background:#131d2b}.strategy .name{font-weight:700}.strategy .meta{display:flex;gap:10px;margin-top:6px;font-size:12px;color:var(--muted)}.tag{border:1px solid var(--line);border-radius:999px;padding:2px 6px}
+.content{padding:15px}.metric-row{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}.mini{background:#0a1019;border:1px solid #182231;border-radius:11px;padding:10px}.mini small{color:var(--muted);display:block}.mini b{display:block;margin-top:4px}
+.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:12px;margin-top:12px}table{border-collapse:collapse;width:100%;min-width:980px}th,td{padding:10px 11px;border-bottom:1px solid #182231;font-size:12px;text-align:left;white-space:nowrap}th{background:#0a1019;color:#aeb9c9;position:sticky;top:0}.good{color:var(--green)}.bad{color:var(--red)}.muted{color:var(--muted)}.warn{color:var(--yellow)}
+.signals{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.signal{background:#0a1019;border:1px solid #182231;border-radius:12px;padding:11px;cursor:pointer}.signal:hover,.signal.active{border-color:#59677d;background:#111a27}.signal b{display:block}.signal small{color:var(--muted)}
+.desc{color:#b8c3d1;line-height:1.5}.assumptions{margin-top:16px;padding:14px;border-left:3px solid var(--violet);background:#0b111a;border-radius:8px}.hidden{display:none}
+@media(max-width:1150px){.grid{grid-template-columns:1fr}.strategies{max-height:360px}.metric-row{grid-template-columns:repeat(3,1fr)}.signals{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.wrap{padding:13px}.kpis{grid-template-columns:repeat(2,1fr)}.metric-row{grid-template-columns:repeat(2,1fr)}.signals{grid-template-columns:repeat(2,1fr)}h1{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div><h1>QuantLedger · Strategy Lab ⚗️</h1><div class="sub">One signal → many parallel strategies. Shadow simulation only.</div></div>
+    <div class="chips"><span class="chip" id="updated">Loading…</span><span class="chip" id="fees">Fees —</span><span class="chip" id="virtualBalance">Virtual balance —</span><span class="chip">NO EXCHANGE ORDERS</span></div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><small>Strategies</small><b id="kStrategies">—</b></div>
+    <div class="kpi"><small>Signals</small><b id="kSignals">—</b></div>
+    <div class="kpi"><small>Closed variants</small><b id="kClosed">—</b></div>
+    <div class="kpi"><small>Open variants</small><b id="kOpen">—</b></div>
+    <div class="kpi"><small>Top net result</small><b id="kNet">—</b></div>
+    <div class="kpi"><small>Top avg ROI</small><b id="kRoi">—</b></div>
+  </div>
+
+  <div class="controls">
+    <select id="group"><option value="ALL">All strategy groups</option></select>
+    <select id="sample"><option value="0">Any sample size</option><option value="5">≥ 5 closed</option><option value="10">≥ 10 closed</option><option value="25">≥ 25 closed</option><option value="50">≥ 50 closed</option></select>
+    <input id="search" placeholder="Search strategy / symbol">
+    <button id="refresh">Refresh</button>
+  </div>
+
+  <div class="grid">
+    <div class="panel"><h2>Strategies — click one</h2><div class="strategies" id="strategyList"></div></div>
+    <div class="panel"><h2 id="detailTitle">Strategy details</h2><div class="content" id="strategyDetail"><div class="muted">Select a strategy.</div></div></div>
+  </div>
+
+  <div class="panel" style="margin-top:16px">
+    <h2>Same signal, all strategies — click a signal</h2>
+    <div class="content">
+      <div class="signals" id="signalCards"></div>
+      <div id="signalDetail" class="hidden"></div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:16px"><h2>Strategy comparison</h2><div class="tablewrap" style="margin:0;border:0;border-radius:0"><table>
+    <thead><tr><th>Strategy</th><th>Group</th><th>Closed</th><th>Win %</th><th>Net PnL</th><th>Avg ROI</th><th>Median ROI</th><th>PF</th><th>Max DD</th><th>DCA closes</th></tr></thead>
+    <tbody id="comparison"></tbody></table></div></div>
+
+  <div class="assumptions" id="notes">Waiting for data…</div>
+</div>
+
+<script>
+let DATA=null, selectedStrategy=null, selectedSignal=null;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+const n=(x,d=2)=>Number(x||0).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d});
+const cls=x=>Number(x||0)>0?'good':Number(x||0)<0?'bad':'muted';
+const money=x=>`${Number(x||0)>=0?'+':''}${n(x,3)} USDT`;
+const pct=x=>`${Number(x||0)>=0?'+':''}${n(x,3)}%`;
+function price(x){x=Number(x||0);if(!x)return '—';return x<.01?x.toFixed(8):x<1?x.toFixed(6):x.toFixed(4)}
+function sMap(){return Object.fromEntries((DATA?.strategies||[]).map(x=>[x.id,x]))}
+
+function filteredStrategies(){
+  const g=$('#group').value, min=Number($('#sample').value), q=$('#search').value.trim().toLowerCase();
+  return (DATA.strategies||[]).filter(s=>(g==='ALL'||s.group===g)&&s.closed>=min&&(!q||s.name.toLowerCase().includes(q)||s.id.toLowerCase().includes(q)));
+}
+function renderStrategyList(){
+  const rows=filteredStrategies().sort((a,b)=>b.net_pnl-a.net_pnl);
+  $('#strategyList').innerHTML=rows.map(s=>`<div class="strategy ${selectedStrategy===s.id?'active':''}" data-id="${esc(s.id)}">
+    <div class="name">${esc(s.name)}</div><div class="meta"><span class="tag">${esc(s.group)}</span><span>${s.closed} closed</span><span class="${cls(s.net_pnl)}">${money(s.net_pnl)}</span></div>
+  </div>`).join('')||'<div class="strategy muted">No matches.</div>';
+  document.querySelectorAll('.strategy[data-id]').forEach(x=>x.onclick=()=>showStrategy(x.dataset.id));
+}
+function showStrategy(id){
+  selectedStrategy=id; const s=sMap()[id]; if(!s)return; renderStrategyList();
+  $('#detailTitle').textContent=s.name;
+  const c=s.config||{};
+  const trades=[];
+  for(const sig of DATA.signals||[]){const v=(sig.variants||[]).find(x=>x.strategy_id===id);if(v)trades.push({...v,symbol:sig.symbol,timeframe:sig.timeframe,signal_id:sig.signal_id})}
+  $('#strategyDetail').innerHTML=`
+    <div class="desc">${esc(s.description)}</div>
+    <div class="metric-row" style="margin-top:12px">
+      <div class="mini"><small>Closed</small><b>${s.closed}</b></div><div class="mini"><small>Win rate</small><b>${n(s.win_rate,2)}%</b></div>
+      <div class="mini"><small>Net PnL</small><b class="${cls(s.net_pnl)}">${money(s.net_pnl)}</b></div><div class="mini"><small>Avg ROI</small><b class="${cls(s.avg_roi)}">${pct(s.avg_roi)}</b></div>
+      <div class="mini"><small>Profit factor</small><b>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</b></div><div class="mini"><small>Max DD</small><b class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</b></div>
+    </div>
+    <div class="desc" style="margin-top:10px">Virtual capital: ${n(s.virtual_initial_balance,0)} USDT · Deployed: ${n(s.virtual_deployed,2)} USDT · Reserved for DCA: ${n(s.virtual_reserved,2)} USDT · Capital entry rejections: OFF</div>
+    <div class="tablewrap"><table><thead><tr><th>Setting</th><th>Value</th><th>Setting</th><th>Value</th></tr></thead><tbody>
+      <tr><td>Entry1</td><td>${n(c.entry1_usdt,0)} USDT</td><td>Entry2</td><td>${c.dca?n(c.entry2_usdt,0)+' USDT':'OFF'}</td></tr>
+      <tr><td>Mode</td><td>${esc(c.mode)}</td><td>Target</td><td>${c.mode==='SPLIT'?'Split':('TP'+c.target)}</td></tr>
+      <tr><td>DCA profit</td><td>${c.dca?c.dca_profit+'%':'—'}</td><td>DCA trail</td><td>${c.dca&&c.dca_trail?c.dca_trail+'%':'OFF'}</td></tr>
+      <tr><td>Fixed target</td><td>${c.fixed_target_pct?c.fixed_target_pct+'%':'—'}</td><td>Fixed stop</td><td>${c.fixed_stop_pct?c.fixed_stop_pct+'%':'—'}</td></tr>
+      <tr><td>Raised stop</td><td>${c.raised_stop?'YES':'NO'}</td><td>Stop source</td><td>${esc(c.stop_source)}</td></tr>
+    </tbody></table></div>
+    <div class="tablewrap"><table><thead><tr><th>Symbol</th><th>TF</th><th>Status</th><th>E1</th><th>E2</th><th>Avg</th><th>Exit</th><th>PnL</th><th>ROI</th><th>Reason</th></tr></thead>
+      <tbody>${trades.slice(0,80).map(t=>`<tr><td>${esc(t.symbol)}</td><td>${esc(t.timeframe||'—')}</td><td>${esc(t.status)}</td><td>${price(t.entry1_price)}</td><td>${price(t.entry2_price)}</td><td>${price(t.avg_entry)}</td><td>${price(t.exit_price)}</td><td class="${cls(t.pnl)}">${t.status==='CLOSED'?money(t.pnl):'—'}</td><td class="${cls(t.roi)}">${t.status==='CLOSED'?pct(t.roi):'—'}</td><td>${esc(t.exit_reason||'—')}</td></tr>`).join('')}</tbody>
+    </table></div>`;
+}
+function renderSignals(){
+  const q=$('#search').value.trim().toLowerCase();
+  const sigs=(DATA.signals||[]).filter(s=>!q||s.symbol.toLowerCase().includes(q)).slice(0,48);
+  $('#signalCards').innerHTML=sigs.map(s=>{
+    const closed=(s.variants||[]).filter(v=>v.status==='CLOSED').length;
+    const open=(s.variants||[]).filter(v=>v.status==='OPEN').length;
+    return `<div class="signal ${selectedSignal===s.signal_id?'active':''}" data-sig="${esc(s.signal_id)}"><b>${esc(s.symbol)} <span class="muted">${esc(s.timeframe||'')}</span></b><small>${s.market_ready?'MARKET ENTRY':'E1 '+price(s.entry1)} · E2 ${price(s.entry2)}</small><small>${closed} closed · ${open} open variants</small></div>`;
+  }).join('')||'<div class="muted">No signals yet.</div>';
+  document.querySelectorAll('.signal[data-sig]').forEach(x=>x.onclick=()=>showSignal(x.dataset.sig));
+}
+function showSignal(id){
+  selectedSignal=id; renderSignals(); const s=(DATA.signals||[]).find(x=>x.signal_id===id);if(!s)return;
+  const map=sMap(), vars=(s.variants||[]).slice().sort((a,b)=>Number(b.pnl||0)-Number(a.pnl||0));
+  $('#signalDetail').classList.remove('hidden');
+  $('#signalDetail').innerHTML=`<h3>${esc(s.symbol)} ${esc(s.timeframe||'')}</h3>
+    <div class="desc">Signal: ${esc(s.signal_id)} · ${s.market_ready?'ENTRY without numeric price → first live market price':'Explicit Entry1 '+price(s.entry1)} · Entry2 ${price(s.entry2)} · SL ${price(s.stop_loss)}</div>
+    <div class="tablewrap"><table><thead><tr><th>Strategy</th><th>Group</th><th>Status</th><th>E1</th><th>E2</th><th>Avg</th><th>Exit</th><th>PnL</th><th>ROI</th><th>High</th><th>Low</th><th>Reason</th></tr></thead>
+    <tbody>${vars.map(v=>`<tr><td>${esc(map[v.strategy_id]?.name||v.strategy_id)}</td><td>${esc(map[v.strategy_id]?.group||'')}</td><td>${esc(v.status)}</td><td>${price(v.entry1_price)}</td><td>${price(v.entry2_price)}</td><td>${price(v.avg_entry)}</td><td>${price(v.exit_price)}</td><td class="${cls(v.pnl)}">${v.status==='CLOSED'?money(v.pnl):'—'}</td><td class="${cls(v.roi)}">${v.status==='CLOSED'?pct(v.roi):'—'}</td><td>${price(v.high)}</td><td>${price(v.low)}</td><td>${esc(v.exit_reason||'—')}</td></tr>`).join('')}</tbody></table></div>`;
+}
+function renderComparison(){
+  const rows=filteredStrategies().sort((a,b)=>b.net_pnl-a.net_pnl);
+  $('#comparison').innerHTML=rows.map(s=>`<tr><td>${esc(s.name)}</td><td>${esc(s.group)}</td><td>${s.closed}</td><td>${n(s.win_rate,2)}%</td><td class="${cls(s.net_pnl)}">${money(s.net_pnl)}</td><td class="${cls(s.avg_roi)}">${pct(s.avg_roi)}</td><td class="${cls(s.median_roi)}">${pct(s.median_roi)}</td><td>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</td><td class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</td><td>${s.dca_closed}</td></tr>`).join('');
+}
+function render(){
+  if(!DATA)return;
+  $('#updated').textContent='Updated '+new Date(DATA.updated_at).toLocaleString();
+  $('#fees').textContent=`Fees: taker ${n(DATA.fees?.taker_pct,3)}% · maker ${n(DATA.fees?.maker_pct,3)}%`;
+  $('#virtualBalance').textContent=`Virtual: ${n(DATA.virtual_initial_balance_usdt,0)} USDT · no capital rejects`;
+  $('#kStrategies').textContent=DATA.strategy_count; $('#kSignals').textContent=DATA.signal_count; $('#kClosed').textContent=DATA.closed_variants; $('#kOpen').textContent=DATA.open_variants;
+  const eligible=(DATA.strategies||[]).filter(s=>s.closed>0);
+  const net=[...eligible].sort((a,b)=>b.net_pnl-a.net_pnl)[0], roi=[...eligible].sort((a,b)=>b.avg_roi-a.avg_roi)[0];
+  $('#kNet').innerHTML=net?`<span class="${cls(net.net_pnl)}">${money(net.net_pnl)}</span>`:'—';
+  $('#kRoi').innerHTML=roi?`<span class="${cls(roi.avg_roi)}">${pct(roi.avg_roi)}</span>`:'—';
+  const groups=[...new Set((DATA.strategies||[]).map(s=>s.group))]; const cur=$('#group').value;
+  $('#group').innerHTML='<option value="ALL">All strategy groups</option>'+groups.map(g=>`<option ${g===cur?'selected':''}>${esc(g)}</option>`).join('');
+  renderStrategyList();renderSignals();renderComparison();
+  $('#notes').innerHTML=(DATA.notes||[]).map(x=>`<div>• ${esc(x)}</div>`).join('');
+  if(selectedStrategy)showStrategy(selectedStrategy); if(selectedSignal)showSignal(selectedSignal);
+}
+async function load(){
+  const candidates=[`data/strategy_lab.json?t=${Date.now()}`,`strategy_lab_data.json?t=${Date.now()}`];
+  let lastErr;
+  for(const url of candidates){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);DATA=await r.json();render();return}catch(e){lastErr=e}}
+  $('#updated').textContent='Waiting for Strategy Lab data';console.error(lastErr);
+}
+['group','sample'].forEach(id=>$('#'+id).addEventListener('change',render));
+$('#search').addEventListener('input',()=>{renderStrategyList();renderSignals();renderComparison()});
+$('#refresh').onclick=load; load(); setInterval(load,10000);
+</script>
+</body>
+</html>
