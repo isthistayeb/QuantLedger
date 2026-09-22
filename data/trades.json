@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T04:32:26.739716Z",
+  "updated_at": "2026-09-22T05:20:46.173741Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1493,6 +1493,30 @@
       "roi_percent": -0.01920039486674412,
       "result": "BREAKEVEN",
       "reason": "Software Stop Loss"
+    },
+    {
+      "trade_id": 107,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "RENDERUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T03:11:02.614444+00:00",
+      "closed_at": "2026-09-22T05:20:29.506000+00:00",
+      "duration_seconds": 7770,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 1.844,
+      "avg_exit": 1.794,
+      "buy_cost": 75.000000000001,
+      "sell_value": 72.966377440348,
+      "fees": 0.14796637744034863,
+      "net_pnl": -2.181588937093303,
+      "roi_percent": -2.9087852494577064,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
