@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "updated_at": "2026-09-22T17:25:07.928425Z",
+  "updated_at": "2026-09-22T17:28:47.784922Z",
   "lab_started_independently": true,
   "source_database_used": false,
   "exchange_orders_enabled": false,
   "strategy_count": 46,
   "signal_count": 26,
-  "open_variants": 755,
-  "closed_variants": 257,
+  "open_variants": 750,
+  "closed_variants": 262,
   "price_sample_ms": 250,
   "virtual_initial_balance_usdt": 1000000000.0,
   "capital_rejections_enabled": false,
@@ -39,24 +39,24 @@
         "fixed_target_pct": 0.0,
         "fixed_stop_pct": 0.0
       },
-      "closed": 10,
-      "open": 12,
+      "closed": 11,
+      "open": 11,
       "waiting": 4,
-      "wins": 8,
+      "wins": 9,
       "losses": 2,
-      "win_rate": 80.0,
-      "net_pnl": 4.722400735006531,
-      "avg_roi": 0.6293387619532275,
-      "median_roi": 1.7481091288536637,
-      "profit_factor": 1.685964429269734,
+      "win_rate": 81.81818181818183,
+      "net_pnl": 5.67882001460363,
+      "avg_roi": 0.6879978210414345,
+      "median_roi": 1.4060638853505505,
+      "profit_factor": 1.82489156444656,
       "max_drawdown_usdt": -6.884323054526192,
       "dca_closed": 0,
-      "capital_turnover": 750.375,
+      "capital_turnover": 825.4124999999999,
       "virtual_initial_balance": 1000000000.0,
-      "virtual_deployed": 900.4499999999999,
+      "virtual_deployed": 825.4124999999999,
       "virtual_reserved": 0,
-      "virtual_available": 999999099.55,
-      "virtual_realized_balance": 1000000004.7224008
+      "virtual_available": 999999174.5875,
+      "virtual_realized_balance": 1000000005.67882
     },
     {
       "id": "ND_TP2",
@@ -573,24 +573,24 @@
         "fixed_target_pct": 1.0,
         "fixed_stop_pct": 1.0
       },
-      "closed": 16,
-      "open": 6,
+      "closed": 17,
+      "open": 5,
       "waiting": 4,
-      "wins": 4,
+      "wins": 5,
       "losses": 12,
-      "win_rate": 25.0,
-      "net_pnl": -10.09548686369854,
-      "avg_roi": -0.8408701369064252,
+      "win_rate": 29.411764705882355,
+      "net_pnl": -9.382986863698534,
+      "avg_roi": -0.7355527619483226,
       "median_roi": -1.1633119014722302,
-      "profit_factor": 0.22015394476911784,
+      "profit_factor": 0.275192430961397,
       "max_drawdown_usdt": -10.09548686369854,
       "dca_closed": 0,
-      "capital_turnover": 1200.6,
+      "capital_turnover": 1275.6374999999998,
       "virtual_initial_balance": 1000000000.0,
-      "virtual_deployed": 450.22499999999997,
+      "virtual_deployed": 375.1875,
       "virtual_reserved": 0,
-      "virtual_available": 999999549.775,
-      "virtual_realized_balance": 999999989.9045131
+      "virtual_available": 999999624.8125,
+      "virtual_realized_balance": 999999990.6170131
     },
     {
       "id": "FIXED_T1_S2",
@@ -615,24 +615,24 @@
         "fixed_target_pct": 1.0,
         "fixed_stop_pct": 2.0
       },
-      "closed": 13,
-      "open": 9,
+      "closed": 14,
+      "open": 8,
       "waiting": 4,
-      "wins": 10,
+      "wins": 11,
       "losses": 3,
-      "win_rate": 76.92307692307693,
-      "net_pnl": 2.2075559635232196,
-      "avg_roi": 0.2263028448363736,
+      "win_rate": 78.57142857142857,
+      "net_pnl": 2.9200559635232253,
+      "avg_roi": 0.27796158716101244,
       "median_roi": 0.949525237381317,
-      "profit_factor": 1.4489234543693645,
+      "profit_factor": 1.5938157998063007,
       "max_drawdown_usdt": -3.49244403647684,
       "dca_closed": 0,
-      "capital_turnover": 975.4875,
+      "capital_turnover": 1050.5249999999999,
       "virtual_initial_balance": 1000000000.0,
-      "virtual_deployed": 675.3375,
+      "virtual_deployed": 600.3,
       "virtual_reserved": 0,
-      "virtual_available": 999999324.6625,
-      "virtual_realized_balance": 1000000002.207556
+      "virtual_available": 999999399.7,
+      "virtual_realized_balance": 1000000002.920056
     },
     {
       "id": "FIXED_T1_S3",
@@ -657,24 +657,24 @@
         "fixed_target_pct": 1.0,
         "fixed_stop_pct": 3.0
       },
-      "closed": 13,
-      "open": 9,
+      "closed": 14,
+      "open": 8,
       "waiting": 4,
-      "wins": 12,
+      "wins": 13,
       "losses": 1,
-      "win_rate": 92.3076923076923,
-      "net_pnl": 6.198260426110693,
-      "avg_roi": 0.6354013174039334,
+      "win_rate": 92.85714285714286,
+      "net_pnl": 6.9107604261106985,
+      "avg_roi": 0.6578387402594607,
       "median_roi": 0.949525237381317,
-      "profit_factor": 3.6356066355849905,
+      "profit_factor": 3.938573855217072,
       "max_drawdown_usdt": -2.3517395738893896,
       "dca_closed": 0,
-      "capital_turnover": 975.4875,
+      "capital_turnover": 1050.5249999999999,
       "virtual_initial_balance": 1000000000.0,
-      "virtual_deployed": 675.3375,
+      "virtual_deployed": 600.3,
       "virtual_reserved": 0,
-      "virtual_available": 999999324.6625,
-      "virtual_realized_balance": 1000000006.1982604
+      "virtual_available": 999999399.7,
+      "virtual_realized_balance": 1000000006.9107604
     },
     {
       "id": "FIXED_T2_S1",
@@ -1077,24 +1077,24 @@
         "fixed_target_pct": 0.0,
         "fixed_stop_pct": 0.0
       },
-      "closed": 10,
-      "open": 12,
+      "closed": 11,
+      "open": 11,
       "waiting": 4,
-      "wins": 8,
+      "wins": 9,
       "losses": 2,
-      "win_rate": 80.0,
-      "net_pnl": 3.489145603438274,
-      "avg_roi": 0.7353362535110539,
-      "median_roi": 1.7481091288536637,
-      "profit_factor": 1.4298259312630017,
+      "win_rate": 81.81818181818183,
+      "net_pnl": 4.445564883035374,
+      "avg_roi": 0.784359177003095,
+      "median_roi": 1.4060638853505505,
+      "profit_factor": 1.5476466972194618,
       "max_drawdown_usdt": -8.117578186094448,
       "dca_closed": 2,
-      "capital_turnover": 800.375,
+      "capital_turnover": 875.4124999999999,
       "virtual_initial_balance": 1000000000.0,
-      "virtual_deployed": 975.4499999999999,
-      "virtual_reserved": 200.0,
-      "virtual_available": 999998824.55,
-      "virtual_realized_balance": 1000000003.4891456
+      "virtual_deployed": 900.4124999999999,
+      "virtual_reserved": 175.0,
+      "virtual_available": 999998924.5875,
+      "virtual_realized_balance": 1000000004.4455649
     },
     {
       "id": "DCA_75_25_TP2",
@@ -2992,9 +2992,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP2",
@@ -3012,9 +3012,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3",
@@ -3032,9 +3032,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP4",
@@ -3052,9 +3052,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP5",
@@ -3072,9 +3072,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6",
@@ -3092,9 +3092,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -3112,9 +3112,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -3132,9 +3132,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -3152,9 +3152,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -3172,9 +3172,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -3192,9 +3192,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -3212,9 +3212,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -3232,9 +3232,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S2",
@@ -3252,9 +3252,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -3272,9 +3272,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -3292,9 +3292,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -3312,9 +3312,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -3332,9 +3332,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -3352,9 +3352,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -3372,9 +3372,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -3392,9 +3392,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -3412,9 +3412,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -3432,9 +3432,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -3452,9 +3452,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -3472,9 +3472,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -3492,9 +3492,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -3512,9 +3512,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -3532,9 +3532,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -3552,9 +3552,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -3572,9 +3572,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -3592,9 +3592,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -3612,9 +3612,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -3632,9 +3632,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -3652,9 +3652,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -3672,9 +3672,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -3692,9 +3692,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -3712,9 +3712,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -3732,9 +3732,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -3752,9 +3752,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -3772,9 +3772,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -3792,9 +3792,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -3812,9 +3812,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -3832,9 +3832,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -3852,9 +3852,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -3872,9 +3872,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -3892,9 +3892,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         }
       ]
     },
@@ -3936,9 +3936,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP2",
@@ -3956,9 +3956,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3",
@@ -3976,9 +3976,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP4",
@@ -3996,9 +3996,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP5",
@@ -4016,9 +4016,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6",
@@ -4036,9 +4036,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -4056,9 +4056,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -4076,9 +4076,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -4096,9 +4096,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -4116,9 +4116,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -4136,9 +4136,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -4156,9 +4156,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -4176,9 +4176,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S2",
@@ -4196,9 +4196,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -4216,9 +4216,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -4236,9 +4236,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -4256,9 +4256,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -4276,9 +4276,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -4296,9 +4296,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -4316,9 +4316,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -4336,9 +4336,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -4356,9 +4356,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -4376,9 +4376,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -4396,9 +4396,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -4416,9 +4416,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -4436,9 +4436,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -4456,9 +4456,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -4476,9 +4476,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -4496,9 +4496,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -4516,9 +4516,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -4536,9 +4536,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -4556,9 +4556,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -4576,9 +4576,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -4596,9 +4596,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -4616,9 +4616,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -4636,9 +4636,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -4656,9 +4656,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -4676,9 +4676,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -4696,9 +4696,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -4716,9 +4716,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -4736,9 +4736,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -4756,9 +4756,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -4776,9 +4776,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -4796,9 +4796,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -4816,9 +4816,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -4836,9 +4836,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.003621,
+          "high": 0.0036226,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         }
       ]
     },
@@ -4880,9 +4880,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP2",
@@ -4900,9 +4900,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP3",
@@ -4920,9 +4920,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP4",
@@ -4940,9 +4940,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP5",
@@ -4960,9 +4960,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP6",
@@ -4980,9 +4980,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -5000,9 +5000,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -5020,9 +5020,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -5040,9 +5040,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -5060,9 +5060,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -5080,9 +5080,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -5100,9 +5100,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -5120,9 +5120,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T1_S2",
@@ -5140,9 +5140,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -5160,9 +5160,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -5180,9 +5180,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -5200,9 +5200,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -5220,9 +5220,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -5240,9 +5240,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -5260,9 +5260,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -5280,9 +5280,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -5300,9 +5300,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -5320,9 +5320,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -5340,9 +5340,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -5360,9 +5360,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -5380,9 +5380,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -5400,9 +5400,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -5420,9 +5420,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -5440,9 +5440,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -5460,9 +5460,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -5480,9 +5480,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -5500,9 +5500,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -5520,9 +5520,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -5540,9 +5540,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -5560,9 +5560,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -5580,9 +5580,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -5600,9 +5600,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -5620,9 +5620,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -5640,9 +5640,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -5660,9 +5660,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -5680,9 +5680,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -5700,9 +5700,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -5720,9 +5720,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -5740,9 +5740,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -5760,9 +5760,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -5780,9 +5780,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.002016,
+          "high": 0.0020161,
           "low": 0.00201,
-          "last_price": 0.002016
+          "last_price": 0.0020158
         }
       ]
     },
@@ -5826,7 +5826,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP2",
@@ -5846,7 +5846,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP3",
@@ -5866,7 +5866,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP4",
@@ -5886,7 +5886,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP5",
@@ -5906,7 +5906,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP6",
@@ -5926,7 +5926,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -5946,7 +5946,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -5966,7 +5966,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -5986,7 +5986,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -6006,7 +6006,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -6026,7 +6026,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -6046,7 +6046,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -6086,7 +6086,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -6106,7 +6106,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -6146,7 +6146,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -6166,7 +6166,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -6206,7 +6206,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -6226,7 +6226,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -6266,7 +6266,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -6286,7 +6286,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -6306,7 +6306,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -6326,7 +6326,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -6346,7 +6346,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -6366,7 +6366,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -6386,7 +6386,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -6406,7 +6406,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -6426,7 +6426,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -6446,7 +6446,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -6466,7 +6466,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -6486,7 +6486,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -6506,7 +6506,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -6526,7 +6526,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -6546,7 +6546,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -6566,7 +6566,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -6586,7 +6586,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -6606,7 +6606,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -6626,7 +6626,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -6646,7 +6646,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -6666,7 +6666,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -6686,7 +6686,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -6706,7 +6706,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -6726,7 +6726,7 @@
           "trail_peak": 0.0,
           "high": 0.13647,
           "low": 0.13455,
-          "last_price": 0.1355
+          "last_price": 0.13594
         }
       ]
     },
@@ -7914,7 +7914,7 @@
           "trail_peak": 0.0,
           "high": 0.0038166,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -7934,7 +7934,7 @@
           "trail_peak": 0.0,
           "high": 0.0038166,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -8614,7 +8614,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         }
       ]
     },
@@ -8678,7 +8678,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_TP3",
@@ -8698,7 +8698,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_TP4",
@@ -8718,7 +8718,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_TP5",
@@ -8738,7 +8738,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_TP6",
@@ -8758,7 +8758,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -8778,7 +8778,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -8798,7 +8798,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -8818,7 +8818,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -8838,7 +8838,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -8858,7 +8858,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -8878,7 +8878,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -8958,7 +8958,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -8978,7 +8978,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -8998,7 +8998,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -9018,7 +9018,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -9038,7 +9038,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -9058,7 +9058,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -9078,7 +9078,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -9098,7 +9098,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -9118,7 +9118,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -9158,7 +9158,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -9178,7 +9178,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -9198,7 +9198,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -9218,7 +9218,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -9238,7 +9238,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -9258,7 +9258,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -9278,7 +9278,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -9298,7 +9298,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -9318,7 +9318,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -9338,7 +9338,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -9358,7 +9358,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -9378,7 +9378,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -9398,7 +9398,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -9418,7 +9418,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -9438,7 +9438,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -9458,7 +9458,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -9478,7 +9478,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -9498,7 +9498,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -9518,7 +9518,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -9538,7 +9538,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -9558,7 +9558,7 @@
           "trail_peak": 0.0,
           "high": 0.06678,
           "low": 0.0656,
-          "last_price": 0.06631
+          "last_price": 0.06619
         }
       ]
     },
@@ -11474,23 +11474,23 @@
       "variants": [
         {
           "strategy_id": "ND_TP1",
-          "status": "OPEN",
+          "status": "CLOSED",
           "opened_at": 1790094436.1677985,
-          "closed_at": null,
+          "closed_at": 1790098094.573649,
           "entry1_price": 0.043087,
           "entry2_price": 0.0,
           "avg_entry": 0.0431085435,
           "quote_cost": 75.0375,
-          "pnl": 0.0,
-          "roi": 0.0,
-          "exit_price": 0.0,
-          "exit_reason": null,
+          "pnl": 0.9564192795970996,
+          "roi": 1.2745884119235045,
+          "exit_price": 0.043658,
+          "exit_reason": "Target 1",
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP2",
@@ -11508,9 +11508,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP3",
@@ -11528,9 +11528,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP4",
@@ -11548,9 +11548,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP5",
@@ -11568,9 +11568,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP6",
@@ -11588,9 +11588,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -11608,9 +11608,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -11628,9 +11628,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -11648,9 +11648,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -11668,9 +11668,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -11688,9 +11688,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -11708,69 +11708,69 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T1_S1",
-          "status": "OPEN",
+          "status": "CLOSED",
           "opened_at": 1790094436.1677985,
-          "closed_at": null,
+          "closed_at": 1790098094.573649,
           "entry1_price": 0.043087,
           "entry2_price": 0.0,
           "avg_entry": 0.0431085435,
           "quote_cost": 75.0375,
-          "pnl": 0.0,
-          "roi": 0.0,
-          "exit_price": 0.0,
-          "exit_reason": null,
+          "pnl": 0.7125000000000057,
+          "roi": 0.949525237381317,
+          "exit_price": 0.04351787,
+          "exit_reason": "Target 1",
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.04351787
         },
         {
           "strategy_id": "FIXED_T1_S2",
-          "status": "OPEN",
+          "status": "CLOSED",
           "opened_at": 1790094436.1677985,
-          "closed_at": null,
+          "closed_at": 1790098094.573649,
           "entry1_price": 0.043087,
           "entry2_price": 0.0,
           "avg_entry": 0.0431085435,
           "quote_cost": 75.0375,
-          "pnl": 0.0,
-          "roi": 0.0,
-          "exit_price": 0.0,
-          "exit_reason": null,
+          "pnl": 0.7125000000000057,
+          "roi": 0.949525237381317,
+          "exit_price": 0.04351787,
+          "exit_reason": "Target 1",
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.04351787
         },
         {
           "strategy_id": "FIXED_T1_S3",
-          "status": "OPEN",
+          "status": "CLOSED",
           "opened_at": 1790094436.1677985,
-          "closed_at": null,
+          "closed_at": 1790098094.573649,
           "entry1_price": 0.043087,
           "entry2_price": 0.0,
           "avg_entry": 0.0431085435,
           "quote_cost": 75.0375,
-          "pnl": 0.0,
-          "roi": 0.0,
-          "exit_price": 0.0,
-          "exit_reason": null,
+          "pnl": 0.7125000000000057,
+          "roi": 0.949525237381317,
+          "exit_price": 0.04351787,
+          "exit_reason": "Target 1",
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.04351787
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -11788,9 +11788,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -11808,9 +11808,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -11828,9 +11828,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -11848,9 +11848,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -11868,9 +11868,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -11888,9 +11888,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -11908,9 +11908,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -11928,9 +11928,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -11948,29 +11948,29 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_TP1",
-          "status": "OPEN",
+          "status": "CLOSED",
           "opened_at": 1790094436.1677985,
-          "closed_at": null,
+          "closed_at": 1790098094.573649,
           "entry1_price": 0.043087,
           "entry2_price": 0.0,
           "avg_entry": 0.0431085435,
           "quote_cost": 75.0375,
-          "pnl": 0.0,
-          "roi": 0.0,
-          "exit_price": 0.0,
-          "exit_reason": null,
+          "pnl": 0.9564192795970996,
+          "roi": 1.2745884119235045,
+          "exit_price": 0.043658,
+          "exit_reason": "Target 1",
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -11988,9 +11988,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -12008,9 +12008,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -12028,9 +12028,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -12048,9 +12048,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -12068,9 +12068,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -12088,9 +12088,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -12108,9 +12108,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -12128,9 +12128,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -12148,9 +12148,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -12168,9 +12168,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -12188,9 +12188,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -12208,9 +12208,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -12228,9 +12228,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -12248,9 +12248,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -12268,9 +12268,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -12288,9 +12288,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -12308,9 +12308,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -12328,9 +12328,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -12348,9 +12348,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -12368,9 +12368,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -12388,9 +12388,9 @@
           "dca_filled": 0,
           "trail_active": 0,
           "trail_peak": 0.0,
-          "high": 0.043494,
-          "low": 0.042914,
-          "last_price": 0.043287
+          "high": 0.043658,
+          "low": 0.042715,
+          "last_price": 0.043658
         }
       ]
     },
@@ -12434,7 +12434,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP2",
@@ -12454,7 +12454,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP3",
@@ -12474,7 +12474,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP4",
@@ -12494,7 +12494,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP5",
@@ -12514,7 +12514,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP6",
@@ -12534,7 +12534,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -12554,7 +12554,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -12574,7 +12574,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -12594,7 +12594,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -12614,7 +12614,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -12634,7 +12634,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -12654,7 +12654,7 @@
           "trail_peak": 0.0,
           "high": 0.2206,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -12914,7 +12914,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -12934,7 +12934,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -12954,7 +12954,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -12974,7 +12974,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -12994,7 +12994,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -13014,7 +13014,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -13034,7 +13034,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -13054,7 +13054,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -13074,7 +13074,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -13094,7 +13094,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -13114,7 +13114,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -13134,7 +13134,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -13154,7 +13154,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -13174,7 +13174,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -13194,7 +13194,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -13214,7 +13214,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -13234,7 +13234,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -13254,7 +13254,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -13274,7 +13274,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -13294,7 +13294,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -13314,7 +13314,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -13334,7 +13334,7 @@
           "trail_peak": 0.0,
           "high": 0.2189,
           "low": 0.2139,
-          "last_price": 0.2173
+          "last_price": 0.2182
         }
       ]
     },
@@ -13398,7 +13398,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_TP3",
@@ -13418,7 +13418,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_TP4",
@@ -13438,7 +13438,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_TP5",
@@ -13458,7 +13458,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_TP6",
@@ -13478,7 +13478,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -13498,7 +13498,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -13518,7 +13518,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -13538,7 +13538,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -13558,7 +13558,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -13578,7 +13578,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -13598,7 +13598,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -13878,7 +13878,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -13898,7 +13898,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -13918,7 +13918,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -13938,7 +13938,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -13958,7 +13958,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -13978,7 +13978,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -13998,7 +13998,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -14018,7 +14018,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -14038,7 +14038,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -14058,7 +14058,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -14078,7 +14078,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -14098,7 +14098,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -14118,7 +14118,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -14138,7 +14138,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -14158,7 +14158,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -14178,7 +14178,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -14198,7 +14198,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -14218,7 +14218,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -14238,7 +14238,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -14258,7 +14258,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -14278,7 +14278,7 @@
           "trail_peak": 0.0,
           "high": 0.08305,
           "low": 0.07941,
-          "last_price": 0.08242
+          "last_price": 0.08244
         }
       ]
     },
@@ -14422,7 +14422,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -14542,7 +14542,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -14902,7 +14902,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -14962,7 +14962,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -14982,7 +14982,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -15002,7 +15002,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -15022,7 +15022,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -15042,7 +15042,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -15062,7 +15062,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -15082,7 +15082,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -15102,7 +15102,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -15122,7 +15122,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -15142,7 +15142,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -15162,7 +15162,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -15182,7 +15182,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -15202,7 +15202,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -15222,7 +15222,7 @@
           "trail_peak": 0.0,
           "high": 0.04109,
           "low": 0.03654,
-          "last_price": 0.03804
+          "last_price": 0.03845
         }
       ]
     },
@@ -15286,7 +15286,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_TP3",
@@ -15306,7 +15306,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_TP4",
@@ -15326,7 +15326,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_TP5",
@@ -15346,7 +15346,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_TP6",
@@ -15366,7 +15366,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -15386,7 +15386,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -15406,7 +15406,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -15466,7 +15466,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -15486,7 +15486,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -15566,7 +15566,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -15586,7 +15586,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -15606,7 +15606,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -15626,7 +15626,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -15646,7 +15646,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -15666,7 +15666,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -15686,7 +15686,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -15706,7 +15706,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -15726,7 +15726,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -15766,7 +15766,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -15786,7 +15786,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -15806,7 +15806,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -15826,7 +15826,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -15846,7 +15846,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -15866,7 +15866,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -15886,7 +15886,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -15906,7 +15906,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -15926,7 +15926,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -15946,7 +15946,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -15966,7 +15966,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -15986,7 +15986,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -16006,7 +16006,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -16026,7 +16026,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -16046,7 +16046,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -16066,7 +16066,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -16086,7 +16086,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -16106,7 +16106,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -16126,7 +16126,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -16146,7 +16146,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -16166,7 +16166,7 @@
           "trail_peak": 0.0,
           "high": 0.2053,
           "low": 0.2025,
-          "last_price": 0.2042
+          "last_price": 0.2046
         }
       ]
     },
@@ -16210,7 +16210,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP2",
@@ -16230,7 +16230,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP3",
@@ -16250,7 +16250,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP4",
@@ -16270,7 +16270,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP5",
@@ -16290,7 +16290,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP6",
@@ -16310,7 +16310,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -16330,7 +16330,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -16350,7 +16350,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -16370,7 +16370,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -16390,7 +16390,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -16410,7 +16410,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -16430,7 +16430,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -16470,7 +16470,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -16490,7 +16490,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -16530,7 +16530,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -16550,7 +16550,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -16590,7 +16590,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -16610,7 +16610,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -16650,7 +16650,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -16670,7 +16670,7 @@
           "trail_peak": 0.0,
           "high": 0.09683,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -16690,7 +16690,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -16710,7 +16710,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -16730,7 +16730,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -16750,7 +16750,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -16770,7 +16770,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -16790,7 +16790,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -16810,7 +16810,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -16830,7 +16830,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -16910,7 +16910,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -17050,7 +17050,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -17070,7 +17070,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -17090,7 +17090,7 @@
           "trail_peak": 0.0,
           "high": 0.09674,
           "low": 0.09475,
-          "last_price": 0.09605
+          "last_price": 0.09609
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -18098,7 +18098,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP2",
@@ -18118,7 +18118,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP3",
@@ -18138,7 +18138,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP4",
@@ -18158,7 +18158,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP5",
@@ -18178,7 +18178,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP6",
@@ -18198,7 +18198,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -18218,7 +18218,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -18238,7 +18238,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -18258,7 +18258,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -18278,7 +18278,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -18298,7 +18298,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -18318,7 +18318,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -18338,7 +18338,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T1_S2",
@@ -18358,7 +18358,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -18378,7 +18378,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -18398,7 +18398,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -18418,7 +18418,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -18438,7 +18438,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -18458,7 +18458,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -18478,7 +18478,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -18498,7 +18498,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -18518,7 +18518,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -18538,7 +18538,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -18558,7 +18558,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -18578,7 +18578,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -18598,7 +18598,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -18618,7 +18618,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -18638,7 +18638,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -18658,7 +18658,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -18678,7 +18678,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -18698,7 +18698,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -18718,7 +18718,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -18738,7 +18738,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -18758,7 +18758,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -18778,7 +18778,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -18798,7 +18798,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -18818,7 +18818,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -18838,7 +18838,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -18858,7 +18858,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -18878,7 +18878,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -18898,7 +18898,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -18918,7 +18918,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -18938,7 +18938,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -18958,7 +18958,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -18978,7 +18978,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -18998,7 +18998,7 @@
           "trail_peak": 0.0,
           "high": 0.08029,
           "low": 0.07899,
-          "last_price": 0.07946
+          "last_price": 0.07957
         }
       ]
     },
@@ -19048,7 +19048,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP2",
@@ -19068,7 +19068,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3",
@@ -19088,7 +19088,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP4",
@@ -19108,7 +19108,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP5",
@@ -19128,7 +19128,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6",
@@ -19148,7 +19148,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -19168,7 +19168,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -19188,7 +19188,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -19208,7 +19208,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -19228,7 +19228,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -19248,7 +19248,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -19268,7 +19268,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -19308,7 +19308,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -19328,7 +19328,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -19368,7 +19368,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -19388,7 +19388,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -19428,7 +19428,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -19448,7 +19448,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -19488,7 +19488,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -19508,7 +19508,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -19528,7 +19528,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -19548,7 +19548,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -19568,7 +19568,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -19588,7 +19588,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -19608,7 +19608,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -19628,7 +19628,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -19648,7 +19648,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -19668,7 +19668,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -19688,7 +19688,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -19708,7 +19708,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -19728,7 +19728,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -19748,7 +19748,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -19768,7 +19768,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -19788,7 +19788,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -19808,7 +19808,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -19828,7 +19828,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -19848,7 +19848,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -19868,7 +19868,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -19888,7 +19888,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -19908,7 +19908,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -19928,7 +19928,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -19948,7 +19948,7 @@
           "trail_peak": 0.0,
           "high": 0.003643,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         }
       ]
     },
@@ -20936,7 +20936,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP2",
@@ -20956,7 +20956,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP3",
@@ -20976,7 +20976,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP4",
@@ -20996,7 +20996,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP5",
@@ -21016,7 +21016,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP6",
@@ -21036,7 +21036,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -21056,7 +21056,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -21076,7 +21076,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -21096,7 +21096,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -21116,7 +21116,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -21136,7 +21136,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -21156,7 +21156,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -21176,7 +21176,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T1_S2",
@@ -21196,7 +21196,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T1_S3",
@@ -21216,7 +21216,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T2_S1",
@@ -21236,7 +21236,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T2_S2",
@@ -21256,7 +21256,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -21276,7 +21276,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -21296,7 +21296,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T3_S2",
@@ -21316,7 +21316,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -21336,7 +21336,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -21356,7 +21356,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T4_S2",
@@ -21376,7 +21376,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -21396,7 +21396,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -21416,7 +21416,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -21436,7 +21436,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -21456,7 +21456,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -21476,7 +21476,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -21496,7 +21496,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -21516,7 +21516,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -21536,7 +21536,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -21556,7 +21556,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -21576,7 +21576,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -21596,7 +21596,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -21616,7 +21616,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -21636,7 +21636,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -21656,7 +21656,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -21676,7 +21676,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -21696,7 +21696,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -21716,7 +21716,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -21736,7 +21736,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -21756,7 +21756,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -21776,7 +21776,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -21796,7 +21796,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -21816,7 +21816,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -21836,7 +21836,7 @@
           "trail_peak": 0.0,
           "high": 0.06107,
           "low": 0.06074,
-          "last_price": 0.06101
+          "last_price": 0.06095
         }
       ]
     },
@@ -21900,7 +21900,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3",
@@ -21920,7 +21920,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP4",
@@ -21940,7 +21940,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP5",
@@ -21960,7 +21960,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6",
@@ -21980,7 +21980,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -22000,7 +22000,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -22020,7 +22020,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -22080,7 +22080,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -22100,7 +22100,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -22380,7 +22380,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -22400,7 +22400,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -22420,7 +22420,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -22440,7 +22440,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -22460,7 +22460,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -22480,7 +22480,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -22500,7 +22500,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -22520,7 +22520,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -22540,7 +22540,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -22560,7 +22560,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -22580,7 +22580,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -22600,7 +22600,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -22620,7 +22620,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -22640,7 +22640,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -22660,7 +22660,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -22680,7 +22680,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -22700,7 +22700,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -22720,7 +22720,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -22740,7 +22740,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -22760,7 +22760,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -22780,7 +22780,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         }
       ]
     },
@@ -22844,7 +22844,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3",
@@ -22864,7 +22864,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP4",
@@ -22884,7 +22884,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP5",
@@ -22904,7 +22904,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP6",
@@ -22924,7 +22924,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -22944,7 +22944,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -22964,7 +22964,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -23024,7 +23024,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -23044,7 +23044,7 @@
           "trail_peak": 0.0,
           "high": 0.0039253,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -23324,7 +23324,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -23344,7 +23344,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -23364,7 +23364,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -23384,7 +23384,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -23404,7 +23404,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -23424,7 +23424,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -23444,7 +23444,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -23464,7 +23464,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -23484,7 +23484,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -23504,7 +23504,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -23524,7 +23524,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -23544,7 +23544,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -23564,7 +23564,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -23584,7 +23584,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -23604,7 +23604,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -23624,7 +23624,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -23644,7 +23644,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -23664,7 +23664,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -23684,7 +23684,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -23704,7 +23704,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -23724,7 +23724,7 @@
           "trail_peak": 0.0,
           "high": 0.0037099,
           "low": 0.0035842,
-          "last_price": 0.003621
+          "last_price": 0.00361
         }
       ]
     },
@@ -23768,7 +23768,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP2",
@@ -23788,7 +23788,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP3",
@@ -23808,7 +23808,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP4",
@@ -23828,7 +23828,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP5",
@@ -23848,7 +23848,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP6",
@@ -23868,7 +23868,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -23888,7 +23888,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -23908,7 +23908,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -23928,7 +23928,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -23948,7 +23948,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -23968,7 +23968,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -23988,7 +23988,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -24088,7 +24088,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -24108,7 +24108,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -24148,7 +24148,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -24168,7 +24168,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -24208,7 +24208,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -24228,7 +24228,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -24248,7 +24248,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -24268,7 +24268,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -24288,7 +24288,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -24308,7 +24308,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -24328,7 +24328,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -24348,7 +24348,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -24368,7 +24368,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -24388,7 +24388,7 @@
           "trail_peak": 0.0,
           "high": 0.268,
           "low": 0.2601,
-          "last_price": 0.2665
+          "last_price": 0.2661
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -24752,7 +24752,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_TP4",
@@ -24772,7 +24772,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_TP5",
@@ -24792,7 +24792,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_TP6",
@@ -24812,7 +24812,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -24832,7 +24832,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -24852,7 +24852,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -24912,7 +24912,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -24932,7 +24932,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -25152,7 +25152,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -25172,7 +25172,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -25232,7 +25232,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -25252,7 +25252,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -25272,7 +25272,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -25292,7 +25292,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -25312,7 +25312,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -25332,7 +25332,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -25352,7 +25352,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -25372,7 +25372,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -25392,7 +25392,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -25412,7 +25412,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -25432,7 +25432,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -25452,7 +25452,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -25472,7 +25472,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -25492,7 +25492,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -25512,7 +25512,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -25532,7 +25532,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -25552,7 +25552,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -25572,7 +25572,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -25592,7 +25592,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -25612,7 +25612,7 @@
           "trail_peak": 0.0,
           "high": 0.15913,
           "low": 0.15119,
-          "last_price": 0.15812
+          "last_price": 0.15753
         }
       ]
     },
@@ -25656,7 +25656,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP2",
@@ -25676,7 +25676,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP3",
@@ -25696,7 +25696,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP4",
@@ -25716,7 +25716,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP5",
@@ -25736,7 +25736,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP6",
@@ -25756,7 +25756,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_SPLIT_50_30_20",
@@ -25776,7 +25776,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_SPLIT_40_30_20_10",
@@ -25796,7 +25796,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP3_RAISE",
@@ -25816,7 +25816,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_TP6_RAISE",
@@ -25836,7 +25836,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_CH_TP3",
@@ -25856,7 +25856,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "ND_CH_TP6",
@@ -25876,7 +25876,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "FIXED_T1_S1",
@@ -25976,7 +25976,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "FIXED_T2_S3",
@@ -25996,7 +25996,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "FIXED_T3_S1",
@@ -26036,7 +26036,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "FIXED_T3_S3",
@@ -26056,7 +26056,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "FIXED_T4_S1",
@@ -26096,7 +26096,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "FIXED_T4_S3",
@@ -26116,7 +26116,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_TP1",
@@ -26136,7 +26136,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_TP2",
@@ -26156,7 +26156,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_TP3",
@@ -26176,7 +26176,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_TP4",
@@ -26196,7 +26196,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_TP5",
@@ -26216,7 +26216,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_TP6",
@@ -26236,7 +26236,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_50_30_20",
@@ -26256,7 +26256,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_SPLIT_40_30_20_10",
@@ -26276,7 +26276,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_P02",
@@ -26296,7 +26296,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_P03",
@@ -26316,7 +26316,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_P05",
@@ -26336,7 +26336,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_P07",
@@ -26356,7 +26356,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_03_03",
@@ -26376,7 +26376,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_03_05",
@@ -26396,7 +26396,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_03_07",
@@ -26416,7 +26416,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_05_03",
@@ -26436,7 +26436,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_05_05",
@@ -26456,7 +26456,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_05_07",
@@ -26476,7 +26476,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_07_05",
@@ -26496,7 +26496,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_07_07",
@@ -26516,7 +26516,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_07_10",
@@ -26536,7 +26536,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         },
         {
           "strategy_id": "DCA_75_25_CHANNEL_TPE",
@@ -26556,7 +26556,7 @@
           "trail_peak": 0.0,
           "high": 0.0001806,
           "low": 0.000175,
-          "last_price": 0.0001787
+          "last_price": 0.0001788
         }
       ]
     }
