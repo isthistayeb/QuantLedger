@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T10:57:45.893150Z",
+  "updated_at": "2026-09-22T11:29:59.316189Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1949,6 +1949,30 @@
       "roi_percent": -0.11207275927825476,
       "result": "BREAKEVEN",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 125,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "SAGAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T08:53:26.730751+00:00",
+      "closed_at": "2026-09-22T11:29:45.476000+00:00",
+      "duration_seconds": 9384,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.03991,
+      "avg_exit": 0.03835,
+      "buy_cost": 75.0,
+      "sell_value": 72.068403908795,
+      "fees": 0.14706840390879478,
+      "net_pnl": -3.0786644951140025,
+      "roi_percent": -4.104885993485338,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
