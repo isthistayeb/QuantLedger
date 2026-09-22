@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T12:33:47.012188Z",
+  "updated_at": "2026-09-22T12:39:12.337780Z",
   "trades": [
     {
       "trade_id": 2,
@@ -2043,6 +2043,30 @@
       "fees": 0.1509475994148161,
       "net_pnl": 0.7966518154009818,
       "roi_percent": 1.0622024205346403,
+      "result": "WIN",
+      "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 129,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "MOVRUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T10:58:05.749757+00:00",
+      "closed_at": "2026-09-22T12:39:07.738000+00:00",
+      "duration_seconds": 6064,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.8724999999999999,
+      "avg_exit": 0.8837,
+      "buy_cost": 74.982811962874,
+      "sell_value": 75.945342041939,
+      "fees": 0.15092815400481271,
+      "net_pnl": 0.8116019250601633,
+      "roi_percent": 1.0823839541547342,
       "result": "WIN",
       "reason": "Channel TP-E / Average Entry"
     }
