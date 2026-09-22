@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T08:43:52.922275Z",
+  "updated_at": "2026-09-22T09:04:33.296270Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1853,6 +1853,30 @@
       "roi_percent": -0.2,
       "result": "LOSS",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 116,
+      "channel_id": -1003226951554,
+      "channel": "WHALE HUNTING",
+      "mode": "DEMO",
+      "symbol": "ATOMUSDT",
+      "timeframe": "15m",
+      "opened_at": "2026-09-22T05:59:39.225805+00:00",
+      "closed_at": "2026-09-22T09:04:25.532000+00:00",
+      "duration_seconds": 11088,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 1.775,
+      "avg_exit": 1.775,
+      "buy_cost": 74.957770270271,
+      "sell_value": 74.957770270271,
+      "fees": 0.14991554054054151,
+      "net_pnl": -0.14991554054054151,
+      "roi_percent": -0.2,
+      "result": "LOSS",
+      "reason": "Software Stop Loss"
     }
   ]
 }
