@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T07:29:05.153157Z",
+  "updated_at": "2026-09-22T07:29:07.099490Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1731,6 +1731,30 @@
       "fees": 0.08194783704987776,
       "net_pnl": 1.865889212827991,
       "roi_percent": 4.664723032069984,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
+    },
+    {
+      "trade_id": 93,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "NOCKUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T01:31:15.649179+00:00",
+      "closed_at": "2026-09-22T07:28:48.252000+00:00",
+      "duration_seconds": 21460,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.039606,
+      "avg_exit": 0.041341,
+      "buy_cost": 75.0,
+      "sell_value": 78.285487047417,
+      "fees": 0.1532854870474171,
+      "net_pnl": 3.132201560369647,
+      "roi_percent": 4.176268747159528,
       "result": "WIN",
       "reason": "Manual Close from Telegram"
     }
