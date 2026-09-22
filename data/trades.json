@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T06:13:54.683769Z",
+  "updated_at": "2026-09-22T06:32:22.870087Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1635,6 +1635,30 @@
       "fees": 0.15585937500000008,
       "net_pnl": 5.703515625,
       "roi_percent": 7.604687499999995,
+      "result": "WIN",
+      "reason": "Target 6 Filled"
+    },
+    {
+      "trade_id": 111,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "ARXUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T04:32:19.744920+00:00",
+      "closed_at": "2026-09-22T06:32:11.802000+00:00",
+      "duration_seconds": 7195,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.204,
+      "avg_exit": 0.2185,
+      "buy_cost": 74.88986784141,
+      "sell_value": 80.212922173275,
+      "fees": 0.15510279001468436,
+      "net_pnl": 5.1679515418502255,
+      "roi_percent": 6.900735294117652,
       "result": "WIN",
       "reason": "Target 6 Filled"
     }
