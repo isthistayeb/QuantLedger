@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T01:34:47.146868Z",
+  "updated_at": "2026-09-22T01:52:08.867010Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1325,6 +1325,30 @@
       "roi_percent": -0.24598388952818978,
       "result": "LOSS",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 94,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "VTHOUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T01:41:52.533549+00:00",
+      "closed_at": "2026-09-22T01:52:02.637000+00:00",
+      "duration_seconds": 613,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.0006948,
+      "avg_exit": 0.0006849,
+      "buy_cost": 75.0,
+      "sell_value": 73.931347150259,
+      "fees": 0.14893134715025907,
+      "net_pnl": -1.2175841968911876,
+      "roi_percent": -1.623445595854917,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
