@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T02:50:33.101290Z",
+  "updated_at": "2026-09-22T04:21:24.644466Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1445,6 +1445,30 @@
       "roi_percent": 8.624666001994017,
       "result": "WIN",
       "reason": "Target 6 Filled"
+    },
+    {
+      "trade_id": 99,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "PROVEUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T02:17:16.111141+00:00",
+      "closed_at": "2026-09-22T04:21:14.614000+00:00",
+      "duration_seconds": 7442,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.2338,
+      "avg_exit": 0.22789999999999996,
+      "buy_cost": 75.0,
+      "sell_value": 73.107356715141,
+      "fees": 0.14810735671514114,
+      "net_pnl": -2.040750641574004,
+      "roi_percent": -2.7210008554320058,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
