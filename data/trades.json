@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T13:24:43.897571Z",
+  "updated_at": "2026-09-22T13:28:20.043594Z",
   "trades": [
     {
       "trade_id": 2,
@@ -2189,6 +2189,30 @@
       "roi_percent": 9.00658271322267,
       "result": "WIN",
       "reason": "Target 6 Filled"
+    },
+    {
+      "trade_id": 133,
+      "channel_id": -1003226951554,
+      "channel": "WHALE HUNTING",
+      "mode": "DEMO",
+      "symbol": "STEEMUSDT",
+      "timeframe": "15m",
+      "opened_at": "2026-09-22T12:33:39.906798+00:00",
+      "closed_at": "2026-09-22T13:28:07.594000+00:00",
+      "duration_seconds": 3272,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.05737,
+      "avg_exit": 0.05747,
+      "buy_cost": 74.986929243639,
+      "sell_value": 75.11763680725,
+      "fees": 0.15010456605088882,
+      "net_pnl": -0.01939700243986328,
+      "roi_percent": -0.025867177967563885,
+      "result": "BREAKEVEN",
+      "reason": "Software Stop Loss"
     }
   ]
 }
