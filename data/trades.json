@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T07:29:02.434280Z",
+  "updated_at": "2026-09-22T07:29:05.153157Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1707,6 +1707,30 @@
       "fees": 0.0823026315789474,
       "net_pnl": 2.2203289473684227,
       "roi_percent": 5.550822368421054,
+      "result": "WIN",
+      "reason": "Manual Close from Telegram"
+    },
+    {
+      "trade_id": 72,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "MINAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T21:32:54.218418+00:00",
+      "closed_at": "2026-09-22T07:28:46.231000+00:00",
+      "duration_seconds": 35760,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.12691,
+      "avg_exit": 0.13309,
+      "buy_cost": 40.0,
+      "sell_value": 41.947837049878,
+      "fees": 0.08194783704987776,
+      "net_pnl": 1.865889212827991,
+      "roi_percent": 4.664723032069984,
       "result": "WIN",
       "reason": "Manual Close from Telegram"
     }
