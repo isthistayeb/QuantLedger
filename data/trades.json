@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T14:13:34.182255Z",
+  "updated_at": "2026-09-22T14:27:13.488348Z",
   "trades": [
     {
       "trade_id": 2,
@@ -2261,6 +2261,30 @@
       "roi_percent": 8.234011026878003,
       "result": "WIN",
       "reason": "Exchange TP Filled"
+    },
+    {
+      "trade_id": 95,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "GRIFFAINUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T01:51:10.197736+00:00",
+      "closed_at": "2026-09-22T14:27:08.854000+00:00",
+      "duration_seconds": 45361,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.015289,
+      "avg_exit": 0.016388,
+      "buy_cost": 75.019627085378,
+      "sell_value": 80.412168792934,
+      "fees": 0.15543179587831207,
+      "net_pnl": 5.237109911678121,
+      "roi_percent": 6.980986330041213,
+      "result": "WIN",
+      "reason": "Target 6 Filled"
     }
   ]
 }
