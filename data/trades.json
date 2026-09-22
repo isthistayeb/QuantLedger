@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T05:43:42.222610Z",
+  "updated_at": "2026-09-22T05:49:32.780983Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1565,6 +1565,30 @@
       "roi_percent": 7.690913784202372,
       "result": "WIN",
       "reason": "Target 6 Filled"
+    },
+    {
+      "trade_id": 105,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "ICPUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T03:09:19.181730+00:00",
+      "closed_at": "2026-09-22T05:49:20.307000+00:00",
+      "duration_seconds": 9605,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 2.948,
+      "avg_exit": 2.95,
+      "buy_cost": 74.999999999999,
+      "sell_value": 75.050881953866,
+      "fees": 0.15005088195386557,
+      "net_pnl": -0.09916892808683181,
+      "roi_percent": -0.13222523744911036,
+      "result": "BREAKEVEN",
+      "reason": "Channel TP-E / Average Entry"
     }
   ]
 }
