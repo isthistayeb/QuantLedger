@@ -122,16 +122,20 @@ function renderSignals(){
   $('#signalCards').innerHTML=sigs.map(s=>{
     const closed=(s.variants||[]).filter(v=>v.status==='CLOSED').length;
     const open=(s.variants||[]).filter(v=>v.status==='OPEN').length;
-    return `<div class="signal ${selectedSignal===s.signal_id?'active':''}" data-sig="${esc(s.signal_id)}"><b>${esc(s.symbol)} <span class="muted">${esc(s.timeframe||'')}</span></b><small>${esc(s.channel_name||('Channel '+s.chat_id))}</small><small>${s.market_ready?'MARKET ENTRY':'E1 '+price(s.entry1)} · E2 ${price(s.entry2)}</small><small>${closed} closed · ${open} open variants</small></div>`;
+    const cross=s.cross_channel||{};
+    const crossText=cross.confirmed?` · ${cross.channel_count} channels/1h · arrival #${cross.arrival_rank}`:'';
+    return `<div class="signal ${selectedSignal===s.signal_id?'active':''}" data-sig="${esc(s.signal_id)}"><b>${esc(s.symbol)} <span class="muted">${esc(s.timeframe||'')}</span></b><small>${esc(s.channel_name||('Channel '+s.chat_id))}${esc(crossText)}</small><small>${s.market_ready?'MARKET ENTRY':'E1 '+price(s.entry1)} · E2 ${price(s.entry2)}</small><small>${closed} closed · ${open} open variants</small></div>`;
   }).join('')||'<div class="muted">No signals yet.</div>';
   document.querySelectorAll('.signal[data-sig]').forEach(x=>x.onclick=()=>showSignal(x.dataset.sig));
 }
 function showSignal(id){
   selectedSignal=id; renderSignals(); const s=(DATA.signals||[]).find(x=>x.signal_id===id);if(!s)return;
   const map=sMap(), vars=(s.variants||[]).slice().sort((a,b)=>Number(b.pnl||0)-Number(a.pnl||0));
+  const cross=s.cross_channel||{};
+  const crossTable=cross.confirmed?`<h3>Cross-channel confirmation (60 minutes)</h3><div class="desc">First: ${esc(cross.first_channel_name)} · This signal arrived #${cross.arrival_rank} of ${cross.channel_count} channels.</div><div class="tablewrap"><table><thead><tr><th>Order</th><th>Channel</th><th>Time difference</th><th>Closed variants</th><th>Net PnL</th><th>Avg ROI</th></tr></thead><tbody>${(cross.signals||[]).map((x,i)=>{const r=x.result_summary||{};const d=Number(x.signal_ts||0)-Number((cross.signals||[])[0]?.signal_ts||0);return `<tr><td>#${i+1}</td><td>${esc(x.channel_name)}</td><td>${i===0?'FIRST':'+'+n(d/60,1)+' min'}</td><td>${r.closed||0}</td><td class="${cls(r.net_pnl)}">${money(r.net_pnl)}</td><td class="${cls(r.avg_roi)}">${pct(r.avg_roi)}</td></tr>`}).join('')}</tbody></table></div>`:'';
   $('#signalDetail').classList.remove('hidden');
   $('#signalDetail').innerHTML=`<h3>${esc(s.symbol)} ${esc(s.timeframe||'')}</h3>
-    <div class="desc">Signal: ${esc(s.signal_id)} · ${s.market_ready?'ENTRY without numeric price → first live market price':'Explicit Entry1 '+price(s.entry1)} · Entry2 ${price(s.entry2)} · SL ${price(s.stop_loss)}</div>
+    <div class="desc">Channel: ${esc(s.channel_name||('Channel '+s.chat_id))} · Signal: ${esc(s.signal_id)} · ${s.market_ready?'ENTRY without numeric price → first live market price':'Explicit Entry1 '+price(s.entry1)} · Entry2 ${price(s.entry2)} · SL ${price(s.stop_loss)}</div>${crossTable}
     <div class="tablewrap"><table><thead><tr><th>Strategy</th><th>Group</th><th>Status</th><th>E1</th><th>E2</th><th>Avg</th><th>Exit</th><th>PnL</th><th>ROI</th><th>High</th><th>Low</th><th>Reason</th></tr></thead>
     <tbody>${vars.map(v=>`<tr><td>${esc(map[v.strategy_id]?.name||v.strategy_id)}</td><td>${esc(map[v.strategy_id]?.group||'')}</td><td>${esc(v.status)}</td><td>${price(v.entry1_price)}</td><td>${price(v.entry2_price)}</td><td>${price(v.avg_entry)}</td><td>${price(v.exit_price)}</td><td class="${cls(v.pnl)}">${v.status==='CLOSED'?money(v.pnl):'—'}</td><td class="${cls(v.roi)}">${v.status==='CLOSED'?pct(v.roi):'—'}</td><td>${price(v.high)}</td><td>${price(v.low)}</td><td>${esc(v.exit_reason||'—')}</td></tr>`).join('')}</tbody></table></div>`;
 }
