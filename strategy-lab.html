@@ -57,6 +57,10 @@ h1{margin:0;font-size:30px}.sub{color:var(--muted);margin-top:6px}.chips{display
     </div>
   </div>
 
+  <div class="panel" style="margin-top:16px"><h2>Statistics by channel</h2><div class="tablewrap" style="margin:0;border:0;border-radius:0"><table>
+    <thead><tr><th>Channel</th><th>Signals</th><th>Closed variants</th><th>Open variants</th><th>Waiting</th><th>Win %</th><th>Net PnL</th><th>Avg ROI</th><th>Best strategy</th><th>Best net</th></tr></thead>
+    <tbody id="channels"></tbody></table></div></div>
+
   <div class="panel" style="margin-top:16px"><h2>Strategy comparison</h2><div class="tablewrap" style="margin:0;border:0;border-radius:0"><table>
     <thead><tr><th>Strategy</th><th>Group</th><th>Closed</th><th>Win %</th><th>Net PnL</th><th>Avg ROI</th><th>Median ROI</th><th>PF</th><th>Max DD</th><th>DCA closes</th></tr></thead>
     <tbody id="comparison"></tbody></table></div></div>
@@ -105,6 +109,7 @@ function showStrategy(id){
       <tr><td>Mode</td><td>${esc(c.mode)}</td><td>Target</td><td>${c.mode==='SPLIT'?'Split':('TP'+c.target)}</td></tr>
       <tr><td>DCA profit</td><td>${c.dca?c.dca_profit+'%':'—'}</td><td>DCA trail</td><td>${c.dca&&c.dca_trail?c.dca_trail+'%':'OFF'}</td></tr>
       <tr><td>Fixed target</td><td>${c.fixed_target_pct?c.fixed_target_pct+'%':'—'}</td><td>Fixed stop</td><td>${c.fixed_stop_pct?c.fixed_stop_pct+'%':'—'}</td></tr>
+      <tr><td>Post-stop multiplier</td><td>${c.post_stop_multiplier>1?'×'+c.post_stop_multiplier:'—'}</td><td>Post-stop Entry1</td><td>${c.post_stop_multiplier>1?n(c.entry1_usdt*c.post_stop_multiplier,0)+' USDT':'—'}</td></tr>
       <tr><td>Raised stop</td><td>${c.raised_stop?'YES':'NO'}</td><td>Stop source</td><td>${esc(c.stop_source)}</td></tr>
     </tbody></table></div>
     <div class="tablewrap"><table><thead><tr><th>Symbol</th><th>TF</th><th>Status</th><th>E1</th><th>E2</th><th>Avg</th><th>Exit</th><th>PnL</th><th>ROI</th><th>Reason</th></tr></thead>
@@ -117,7 +122,7 @@ function renderSignals(){
   $('#signalCards').innerHTML=sigs.map(s=>{
     const closed=(s.variants||[]).filter(v=>v.status==='CLOSED').length;
     const open=(s.variants||[]).filter(v=>v.status==='OPEN').length;
-    return `<div class="signal ${selectedSignal===s.signal_id?'active':''}" data-sig="${esc(s.signal_id)}"><b>${esc(s.symbol)} <span class="muted">${esc(s.timeframe||'')}</span></b><small>${s.market_ready?'MARKET ENTRY':'E1 '+price(s.entry1)} · E2 ${price(s.entry2)}</small><small>${closed} closed · ${open} open variants</small></div>`;
+    return `<div class="signal ${selectedSignal===s.signal_id?'active':''}" data-sig="${esc(s.signal_id)}"><b>${esc(s.symbol)} <span class="muted">${esc(s.timeframe||'')}</span></b><small>${esc(s.channel_name||('Channel '+s.chat_id))}</small><small>${s.market_ready?'MARKET ENTRY':'E1 '+price(s.entry1)} · E2 ${price(s.entry2)}</small><small>${closed} closed · ${open} open variants</small></div>`;
   }).join('')||'<div class="muted">No signals yet.</div>';
   document.querySelectorAll('.signal[data-sig]').forEach(x=>x.onclick=()=>showSignal(x.dataset.sig));
 }
@@ -134,6 +139,9 @@ function renderComparison(){
   const rows=filteredStrategies().sort((a,b)=>b.net_pnl-a.net_pnl);
   $('#comparison').innerHTML=rows.map(s=>`<tr><td>${esc(s.name)}</td><td>${esc(s.group)}</td><td>${s.closed}</td><td>${n(s.win_rate,2)}%</td><td class="${cls(s.net_pnl)}">${money(s.net_pnl)}</td><td class="${cls(s.avg_roi)}">${pct(s.avg_roi)}</td><td class="${cls(s.median_roi)}">${pct(s.median_roi)}</td><td>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</td><td class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</td><td>${s.dca_closed}</td></tr>`).join('');
 }
+function renderChannels(){
+  $('#channels').innerHTML=(DATA.channels||[]).map(c=>`<tr><td>${esc(c.channel_name)}</td><td>${c.signals}</td><td>${c.closed_variants}</td><td>${c.open_variants}</td><td>${c.waiting_variants}</td><td>${n(c.win_rate,2)}%</td><td class="${cls(c.net_pnl)}">${money(c.net_pnl)}</td><td class="${cls(c.avg_roi)}">${pct(c.avg_roi)}</td><td>${esc(c.best_strategy_name)}</td><td class="${cls(c.best_strategy_net)}">${money(c.best_strategy_net)}</td></tr>`).join('')||'<tr><td colspan="10" class="muted">No channel data yet.</td></tr>';
+}
 function render(){
   if(!DATA)return;
   $('#updated').textContent='Updated '+new Date(DATA.updated_at).toLocaleString();
@@ -146,7 +154,7 @@ function render(){
   $('#kRoi').innerHTML=roi?`<span class="${cls(roi.avg_roi)}">${pct(roi.avg_roi)}</span>`:'—';
   const groups=[...new Set((DATA.strategies||[]).map(s=>s.group))]; const cur=$('#group').value;
   $('#group').innerHTML='<option value="ALL">All strategy groups</option>'+groups.map(g=>`<option ${g===cur?'selected':''}>${esc(g)}</option>`).join('');
-  renderStrategyList();renderSignals();renderComparison();
+  renderStrategyList();renderSignals();renderChannels();renderComparison();
   $('#notes').innerHTML=(DATA.notes||[]).map(x=>`<div>• ${esc(x)}</div>`).join('');
   if(selectedStrategy)showStrategy(selectedStrategy); if(selectedSignal)showSignal(selectedSignal);
 }
