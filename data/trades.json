@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T14:04:15.263580Z",
+  "updated_at": "2026-09-22T14:13:34.182255Z",
   "trades": [
     {
       "trade_id": 2,
@@ -2237,6 +2237,30 @@
       "roi_percent": -0.2694232105628927,
       "result": "LOSS",
       "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 92,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "TAKEUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T01:24:48.600764+00:00",
+      "closed_at": "2026-09-22T14:13:15.764000+00:00",
+      "duration_seconds": 46117,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.05804,
+      "avg_exit": 0.06294,
+      "buy_cost": 75.0,
+      "sell_value": 81.331840110269,
+      "fees": 0.15633184011026877,
+      "net_pnl": 6.1755082701585025,
+      "roi_percent": 8.234011026878003,
+      "result": "WIN",
+      "reason": "Exchange TP Filled"
     }
   ]
 }
