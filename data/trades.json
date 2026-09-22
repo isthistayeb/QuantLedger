@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T07:40:31.923122Z",
+  "updated_at": "2026-09-22T08:37:28.997949Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1804,6 +1804,30 @@
       "net_pnl": 0.8428224381625529,
       "roi_percent": 1.123763250883403,
       "result": "WIN",
+      "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 84,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "XRPUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T23:53:30.125599+00:00",
+      "closed_at": "2026-09-22T08:37:18.945000+00:00",
+      "duration_seconds": 31431,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 1.5303,
+      "avg_exit": 1.5286,
+      "buy_cost": 75.014705882353,
+      "sell_value": 74.931372549019,
+      "fees": 0.14994607843137175,
+      "net_pnl": -0.23327941176471456,
+      "roi_percent": -0.31097823956088355,
+      "result": "LOSS",
       "reason": "Channel TP-E / Average Entry"
     }
   ]
