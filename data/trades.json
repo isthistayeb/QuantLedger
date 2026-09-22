@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T04:21:24.644466Z",
+  "updated_at": "2026-09-22T04:32:26.739716Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1469,6 +1469,30 @@
       "roi_percent": -2.7210008554320058,
       "result": "LOSS",
       "reason": "Matched Channel Stop Loss"
+    },
+    {
+      "trade_id": 97,
+      "channel_id": -1003226951554,
+      "channel": "WHALE HUNTING",
+      "mode": "DEMO",
+      "symbol": "LTCUSDT",
+      "timeframe": "15m",
+      "opened_at": "2026-09-22T02:08:39.416163+00:00",
+      "closed_at": "2026-09-22T04:32:16.687000+00:00",
+      "duration_seconds": 8621,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 60.78000000000001,
+      "avg_exit": 60.89,
+      "buy_cost": 74.987662444482,
+      "sell_value": 75.123375555191,
+      "fees": 0.150111037999673,
+      "net_pnl": -0.014397927290681733,
+      "roi_percent": -0.01920039486674412,
+      "result": "BREAKEVEN",
+      "reason": "Software Stop Loss"
     }
   ]
 }
