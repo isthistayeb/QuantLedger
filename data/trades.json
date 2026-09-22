@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T09:49:55.408180Z",
+  "updated_at": "2026-09-22T10:27:28.505124Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1901,6 +1901,30 @@
       "roi_percent": -0.06120180618269882,
       "result": "BREAKEVEN",
       "reason": "Software Stop Loss"
+    },
+    {
+      "trade_id": 124,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "CHRUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T08:37:22.906372+00:00",
+      "closed_at": "2026-09-22T10:27:18.743000+00:00",
+      "duration_seconds": 6602,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.01765,
+      "avg_exit": 0.01737,
+      "buy_cost": 75.0,
+      "sell_value": 73.810198300283,
+      "fees": 0.1488101983002833,
+      "net_pnl": -1.3386118980169939,
+      "roi_percent": -1.7848158640226586,
+      "result": "LOSS",
+      "reason": "Matched Channel Stop Loss"
     }
   ]
 }
