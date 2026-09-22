@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T05:49:32.780983Z",
+  "updated_at": "2026-09-22T05:50:51.818252Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1588,6 +1588,30 @@
       "net_pnl": -0.09916892808683181,
       "roi_percent": -0.13222523744911036,
       "result": "BREAKEVEN",
+      "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 101,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "WLDUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T02:52:51.712697+00:00",
+      "closed_at": "2026-09-22T05:50:35.819000+00:00",
+      "duration_seconds": 10669,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.4566,
+      "avg_exit": 0.4568,
+      "buy_cost": 75.0,
+      "sell_value": 75.03285151117,
+      "fees": 0.15003285151116952,
+      "net_pnl": -0.11718134034165839,
+      "roi_percent": -0.15624178712221118,
+      "result": "LOSS",
       "reason": "Channel TP-E / Average Entry"
     }
   ]
