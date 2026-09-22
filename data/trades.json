@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T08:37:28.997949Z",
+  "updated_at": "2026-09-22T08:43:52.922275Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1827,6 +1827,30 @@
       "fees": 0.14994607843137175,
       "net_pnl": -0.23327941176471456,
       "roi_percent": -0.31097823956088355,
+      "result": "LOSS",
+      "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 112,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "FHEUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T05:20:48.079213+00:00",
+      "closed_at": "2026-09-22T08:43:40.819000+00:00",
+      "duration_seconds": 12178,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.022000000000000002,
+      "avg_exit": 0.022000000000000002,
+      "buy_cost": 75.0,
+      "sell_value": 75.0,
+      "fees": 0.15,
+      "net_pnl": -0.15,
+      "roi_percent": -0.2,
       "result": "LOSS",
       "reason": "Channel TP-E / Average Entry"
     }
