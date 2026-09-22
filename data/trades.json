@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T01:52:08.867010Z",
+  "updated_at": "2026-09-22T02:03:37.788144Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1349,6 +1349,30 @@
       "roi_percent": -1.623445595854917,
       "result": "LOSS",
       "reason": "Matched Channel Stop Loss"
+    },
+    {
+      "trade_id": 69,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "ZAMAUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T20:44:33.605815+00:00",
+      "closed_at": "2026-09-22T02:03:31.276000+00:00",
+      "duration_seconds": 19140,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.09008999999999999,
+      "avg_exit": 0.09766,
+      "buy_cost": 40.0,
+      "sell_value": 43.361083361083,
+      "fees": 0.08336108336108336,
+      "net_pnl": 3.277722277722276,
+      "roi_percent": 8.19430569430569,
+      "result": "WIN",
+      "reason": "Target 6 Filled"
     }
   ]
 }
