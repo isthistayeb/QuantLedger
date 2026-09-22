@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T13:01:20.022649Z",
+  "updated_at": "2026-09-22T13:04:04.775527Z",
   "trades": [
     {
       "trade_id": 2,
@@ -2140,6 +2140,30 @@
       "net_pnl": -0.22401566469093626,
       "roi_percent": -0.2986875529212482,
       "result": "LOSS",
+      "reason": "Channel TP-E / Average Entry"
+    },
+    {
+      "trade_id": 131,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "SANDUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-22T11:38:43.650594+00:00",
+      "closed_at": "2026-09-22T13:03:44.883000+00:00",
+      "duration_seconds": 5108,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 0.04146,
+      "avg_exit": 0.042,
+      "buy_cost": 75.0,
+      "sell_value": 75.976845151954,
+      "fees": 0.1509768451519537,
+      "net_pnl": 0.825868306801743,
+      "roi_percent": 1.101157742402324,
+      "result": "WIN",
       "reason": "Channel TP-E / Average Entry"
     }
   ]
