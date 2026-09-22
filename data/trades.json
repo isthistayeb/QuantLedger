@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T01:19:10.545484Z",
+  "updated_at": "2026-09-22T01:24:26.091828Z",
   "trades": [
     {
       "trade_id": 2,
@@ -1205,6 +1205,30 @@
       "roi_percent": 0.034507042253518354,
       "result": "BREAKEVEN",
       "reason": "Matched Channel Stop Loss"
+    },
+    {
+      "trade_id": 66,
+      "channel_id": -1002564991697,
+      "channel": "Fox Dz Trading VIP (SCALPING)",
+      "mode": "DEMO",
+      "symbol": "NEARUSDT",
+      "timeframe": "1m",
+      "opened_at": "2026-09-21T20:18:37.987793+00:00",
+      "closed_at": "2026-09-22T01:24:17.370000+00:00",
+      "duration_seconds": 18344,
+      "entry_legs": [
+        "ENTRY1"
+      ],
+      "entries_used": 1,
+      "avg_entry": 4.0619,
+      "avg_exit": 4.3649,
+      "buy_cost": 39.999999999999,
+      "sell_value": 42.983825303428,
+      "fees": 0.08298382530342663,
+      "net_pnl": 2.900841478125901,
+      "roi_percent": 7.2521036953149975,
+      "result": "WIN",
+      "reason": "Target 6 Filled"
     }
   ]
 }
