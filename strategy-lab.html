@@ -38,6 +38,7 @@ h1{margin:0;font-size:30px}.sub{color:var(--muted);margin-top:6px}.chips{display
   </div>
 
   <div class="controls">
+    <select id="channel"><option value="ALL">All channels</option></select>
     <select id="group"><option value="ALL">All strategy groups</option></select>
     <select id="sample"><option value="0">Any sample size</option><option value="5">≥ 5 closed</option><option value="10">≥ 10 closed</option><option value="25">≥ 25 closed</option><option value="50">≥ 50 closed</option></select>
     <input id="search" placeholder="Search strategy / symbol">
@@ -85,11 +86,16 @@ const cls=x=>Number(x||0)>0?'good':Number(x||0)<0?'bad':'muted';
 const money=x=>`${Number(x||0)>=0?'+':''}${n(x,3)} USDT`;
 const pct=x=>`${Number(x||0)>=0?'+':''}${n(x,3)}%`;
 function price(x){x=Number(x||0);if(!x)return '—';return x<.01?x.toFixed(8):x<1?x.toFixed(6):x.toFixed(4)}
-function sMap(){return Object.fromEntries((DATA?.strategies||[]).map(x=>[x.id,x]))}
+function selectedChannel(){
+  const id=$('#channel').value;
+  return id==='ALL'?null:(DATA?.channels||[]).find(c=>String(c.chat_id)===id)||null;
+}
+function activeStrategies(){return selectedChannel()?.strategies||DATA?.strategies||[]}
+function sMap(){return Object.fromEntries(activeStrategies().map(x=>[x.id,x]))}
 
 function filteredStrategies(){
   const g=$('#group').value, min=Number($('#sample').value), q=$('#search').value.trim().toLowerCase();
-  return (DATA.strategies||[]).filter(s=>(g==='ALL'||s.group===g)&&s.closed>=min&&(!q||s.name.toLowerCase().includes(q)||s.id.toLowerCase().includes(q)));
+  return activeStrategies().filter(s=>(g==='ALL'||s.group===g)&&s.closed>=min&&(!q||s.name.toLowerCase().includes(q)||s.id.toLowerCase().includes(q)));
 }
 function renderStrategyList(){
   const rows=filteredStrategies().sort((a,b)=>b.net_pnl-a.net_pnl);
@@ -103,7 +109,8 @@ function showStrategy(id){
   $('#detailTitle').textContent=s.name;
   const c=s.config||{};
   const trades=[];
-  for(const sig of DATA.signals||[]){const v=(sig.variants||[]).find(x=>x.strategy_id===id);if(v)trades.push({...v,symbol:sig.symbol,timeframe:sig.timeframe,signal_id:sig.signal_id})}
+  const channelId=$('#channel').value;
+  for(const sig of DATA.signals||[]){if(channelId!=='ALL'&&String(sig.chat_id)!==channelId)continue;const v=(sig.variants||[]).find(x=>x.strategy_id===id);if(v)trades.push({...v,symbol:sig.symbol,timeframe:sig.timeframe,signal_id:sig.signal_id})}
   $('#strategyDetail').innerHTML=`
     <div class="desc">${esc(s.description)}</div>
     <div class="metric-row" style="margin-top:12px">
@@ -126,7 +133,8 @@ function showStrategy(id){
 }
 function renderSignals(){
   const q=$('#search').value.trim().toLowerCase();
-  const sigs=(DATA.signals||[]).filter(s=>!s.display_duplicate&&s.valid_symbol!==false&&(!q||s.symbol.toLowerCase().includes(q))).slice(0,48);
+  const channelId=$('#channel').value;
+  const sigs=(DATA.signals||[]).filter(s=>!s.display_duplicate&&s.valid_symbol!==false&&(channelId==='ALL'||String(s.chat_id)===channelId)&&(!q||s.symbol.toLowerCase().includes(q))).slice(0,48);
   $('#signalCards').innerHTML=sigs.map(s=>{
     const closed=(s.variants||[]).filter(v=>v.status==='CLOSED').length;
     const open=(s.variants||[]).filter(v=>v.status==='OPEN').length;
@@ -152,23 +160,31 @@ function renderComparison(){
   $('#comparison').innerHTML=rows.map(s=>`<tr><td>${esc(s.name)}</td><td>${esc(s.group)}</td><td>${s.closed}</td><td>${n(s.win_rate,2)}%</td><td class="${cls(s.net_pnl)}">${money(s.net_pnl)}</td><td class="${cls(s.avg_roi)}">${pct(s.avg_roi)}</td><td class="${cls(s.median_roi)}">${pct(s.median_roi)}</td><td>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</td><td class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</td><td>${s.dca_closed}</td></tr>`).join('');
 }
 function renderChannels(){
-  $('#channels').innerHTML=(DATA.channels||[]).map(c=>`<tr><td>${esc(c.channel_name)}</td><td>${c.signals}</td><td>${c.closed_variants}</td><td>${c.open_variants}</td><td>${c.waiting_variants}</td><td>${n(c.win_rate,2)}%</td><td class="${cls(c.net_pnl)}">${money(c.net_pnl)}</td><td class="${cls(c.avg_roi)}">${pct(c.avg_roi)}</td><td>${esc(c.best_strategy_name)}</td><td class="${cls(c.best_strategy_net)}">${money(c.best_strategy_net)}</td></tr>`).join('')||'<tr><td colspan="10" class="muted">No channel data yet.</td></tr>';
+  const chosen=selectedChannel();
+  const rows=chosen?[chosen]:(DATA.channels||[]);
+  $('#channels').innerHTML=rows.map(c=>`<tr><td>${esc(c.channel_name)}</td><td>${c.signals}</td><td>${c.closed_variants}</td><td>${c.open_variants}</td><td>${c.waiting_variants}</td><td>${n(c.win_rate,2)}%</td><td class="${cls(c.net_pnl)}">${money(c.net_pnl)}</td><td class="${cls(c.avg_roi)}">${pct(c.avg_roi)}</td><td>${esc(c.best_strategy_name)}</td><td class="${cls(c.best_strategy_net)}">${money(c.best_strategy_net)}</td></tr>`).join('')||'<tr><td colspan="10" class="muted">No channel data yet.</td></tr>';
 }
 function renderCrossPatterns(){
-  $('#crossPatterns').innerHTML=(DATA.cross_channel_patterns||[]).slice(0,50).map(x=>`<tr><td>${esc(x.pattern)}</td><td>${x.confirmations}</td><td>${x.samples}</td><td>${n(x.avg_confirmation_minutes,1)} min</td><td>${esc(x.best_strategy_name)}</td><td>${x.best_closed}</td><td>${n(x.best_win_rate,2)}%</td><td class="${cls(x.best_net)}">${money(x.best_net)}</td><td class="${cls(x.best_avg_roi)}">${pct(x.best_avg_roi)}</td></tr>`).join('')||'<tr><td colspan="9" class="muted">Waiting for cross-channel confirmations.</td></tr>';
-  $('#confirmationBuckets').innerHTML=(DATA.confirmation_buckets||[]).sort((a,b)=>a.confirmations-b.confirmations).map(x=>`<tr><td>${esc(x.pattern)}</td><td>${x.samples}</td><td>${n(x.avg_confirmation_minutes,1)} min</td><td>${esc(x.best_strategy_name)}</td><td>${x.best_closed}</td><td>${n(x.best_win_rate,2)}%</td><td class="${cls(x.best_net)}">${money(x.best_net)}</td><td class="${cls(x.best_avg_roi)}">${pct(x.best_avg_roi)}</td></tr>`).join('')||'<tr><td colspan="8" class="muted">No confirmation groups yet.</td></tr>';
+  const chosen=selectedChannel();
+  const patterns=(DATA.cross_channel_patterns||[]).filter(x=>!chosen||String(x.pattern||'').split(' → ').includes(chosen.channel_name));
+  $('#crossPatterns').innerHTML=patterns.slice(0,50).map(x=>`<tr><td>${esc(x.pattern)}</td><td>${x.confirmations}</td><td>${x.samples}</td><td>${n(x.avg_confirmation_minutes,1)} min</td><td>${esc(x.best_strategy_name)}</td><td>${x.best_closed}</td><td>${n(x.best_win_rate,2)}%</td><td class="${cls(x.best_net)}">${money(x.best_net)}</td><td class="${cls(x.best_avg_roi)}">${pct(x.best_avg_roi)}</td></tr>`).join('')||'<tr><td colspan="9" class="muted">No cross-channel confirmation pattern for this channel yet.</td></tr>';
+  $('#confirmationBuckets').innerHTML=chosen?'<tr><td colspan="8" class="muted">Select All channels for the global 2 vs 3 vs 4+ comparison. Channel-specific sequences are shown above.</td></tr>':(DATA.confirmation_buckets||[]).sort((a,b)=>a.confirmations-b.confirmations).map(x=>`<tr><td>${esc(x.pattern)}</td><td>${x.samples}</td><td>${n(x.avg_confirmation_minutes,1)} min</td><td>${esc(x.best_strategy_name)}</td><td>${x.best_closed}</td><td>${n(x.best_win_rate,2)}%</td><td class="${cls(x.best_net)}">${money(x.best_net)}</td><td class="${cls(x.best_avg_roi)}">${pct(x.best_avg_roi)}</td></tr>`).join('')||'<tr><td colspan="8" class="muted">No confirmation groups yet.</td></tr>';
 }
 function render(){
   if(!DATA)return;
+  const oldChannel=$('#channel').value;
+  $('#channel').innerHTML='<option value="ALL">All channels</option>'+(DATA.channels||[]).map(c=>`<option value="${esc(c.chat_id)}" ${String(c.chat_id)===oldChannel?'selected':''}>${esc(c.channel_name)}</option>`).join('');
+  const channel=selectedChannel();
+  const strategies=activeStrategies();
   $('#updated').textContent='Updated '+new Date(DATA.updated_at).toLocaleString();
   $('#fees').textContent=`Fees: taker ${n(DATA.fees?.taker_pct,3)}% · maker ${n(DATA.fees?.maker_pct,3)}%`;
   $('#virtualBalance').textContent=`Virtual: ${n(DATA.virtual_initial_balance_usdt,0)} USDT · no capital rejects`;
-  $('#kStrategies').textContent=DATA.strategy_count; $('#kSignals').textContent=DATA.signal_count; $('#kClosed').textContent=DATA.closed_variants; $('#kOpen').textContent=DATA.open_variants;
-  const eligible=(DATA.strategies||[]).filter(s=>s.closed>0);
+  $('#kStrategies').textContent=strategies.length; $('#kSignals').textContent=channel?channel.signals:DATA.signal_count; $('#kClosed').textContent=channel?channel.closed_variants:DATA.closed_variants; $('#kOpen').textContent=channel?channel.open_variants:DATA.open_variants;
+  const eligible=strategies.filter(s=>s.closed>0);
   const net=[...eligible].sort((a,b)=>b.net_pnl-a.net_pnl)[0], roi=[...eligible].sort((a,b)=>b.avg_roi-a.avg_roi)[0];
   $('#kNet').innerHTML=net?`<span class="${cls(net.net_pnl)}">${money(net.net_pnl)}</span>`:'—';
   $('#kRoi').innerHTML=roi?`<span class="${cls(roi.avg_roi)}">${pct(roi.avg_roi)}</span>`:'—';
-  const groups=[...new Set((DATA.strategies||[]).map(s=>s.group))]; const cur=$('#group').value;
+  const groups=[...new Set(strategies.map(s=>s.group))]; const cur=$('#group').value;
   $('#group').innerHTML='<option value="ALL">All strategy groups</option>'+groups.map(g=>`<option ${g===cur?'selected':''}>${esc(g)}</option>`).join('');
   renderStrategyList();renderSignals();renderCrossPatterns();renderChannels();renderComparison();
   $('#notes').innerHTML=(DATA.notes||[]).map(x=>`<div>• ${esc(x)}</div>`).join('');
@@ -180,7 +196,7 @@ async function load(){
   for(const url of candidates){try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);DATA=await r.json();render();return}catch(e){lastErr=e}}
   $('#updated').textContent='Waiting for Strategy Lab data';console.error(lastErr);
 }
-['group','sample'].forEach(id=>$('#'+id).addEventListener('change',render));
+['channel','group','sample'].forEach(id=>$('#'+id).addEventListener('change',()=>{if(id==='channel'){selectedStrategy=null;selectedSignal=null;$('#strategyDetail').innerHTML='<div class="muted">Select a strategy.</div>';$('#detailTitle').textContent='Strategy details';$('#signalDetail').classList.add('hidden')}render()}));
 $('#search').addEventListener('input',()=>{renderStrategyList();renderSignals();renderComparison()});
 $('#refresh').onclick=load; load(); setInterval(load,10000);
 </script>
