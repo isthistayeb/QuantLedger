@@ -71,7 +71,7 @@ h1{margin:0;font-size:30px}.sub{color:var(--muted);margin-top:6px}.chips{display
     <tbody id="channels"></tbody></table></div></div>
 
   <div class="panel" style="margin-top:16px"><h2>Strategy comparison</h2><div class="tablewrap" style="margin:0;border:0;border-radius:0"><table>
-    <thead><tr><th>Strategy</th><th>Group</th><th>Closed</th><th>Win %</th><th>Net PnL</th><th>Avg ROI</th><th>Median ROI</th><th>PF</th><th>Max DD</th><th>DCA closes</th></tr></thead>
+    <thead><tr><th>Strategy</th><th>Group</th><th>Closed</th><th>Win %</th><th>Net PnL</th><th>Avg ROI</th><th>Median ROI</th><th>PF</th><th>Max DD</th><th>DCA closes</th><th>Open now</th><th>Capital now</th><th>Peak open</th><th>Peak capital</th><th>Recommended</th></tr></thead>
     <tbody id="comparison"></tbody></table></div></div>
 
   <div class="assumptions" id="notes">Waiting for data…</div>
@@ -106,6 +106,7 @@ function renderStrategyList(){
 }
 function showStrategy(id){
   selectedStrategy=id; const s=sMap()[id]; if(!s)return; renderStrategyList();
+  const channel=selectedChannel();
   $('#detailTitle').textContent=s.name;
   const c=s.config||{};
   const trades=[];
@@ -119,6 +120,7 @@ function showStrategy(id){
       <div class="mini"><small>Profit factor</small><b>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</b></div><div class="mini"><small>Max DD</small><b class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</b></div>
     </div>
     <div class="desc" style="margin-top:10px">Virtual capital: ${n(s.virtual_initial_balance,0)} USDT · Deployed: ${n(s.virtual_deployed,2)} USDT · Reserved for DCA: ${n(s.virtual_reserved,2)} USDT · Capital entry rejections: OFF</div>
+    <div class="desc" style="margin-top:10px">${channel?`Capital sizing for <b>${esc(channel.channel_name)}</b> + <b>${esc(s.name)}</b> only: open now ${s.open} · committed now ${money(s.current_capital_usdt)} · historical peak ${s.peak_open_positions} simultaneous positions / ${money(s.peak_capital_usdt)} · recommended with 10% buffer ${money(s.recommended_capital_usdt)}.`:'Select one channel above to calculate capital for one channel + one strategy. Global capital sizing is intentionally not shown.'}</div>
     <div class="tablewrap"><table><thead><tr><th>Setting</th><th>Value</th><th>Setting</th><th>Value</th></tr></thead><tbody>
       <tr><td>Entry1</td><td>${n(c.entry1_usdt,0)} USDT</td><td>Entry2</td><td>${c.dca?n(c.entry2_usdt,0)+' USDT':'OFF'}</td></tr>
       <tr><td>Mode</td><td>${esc(c.mode)}</td><td>Target</td><td>${c.mode==='SPLIT'?'Split':('TP'+c.target)}</td></tr>
@@ -157,7 +159,8 @@ function showSignal(id){
 }
 function renderComparison(){
   const rows=filteredStrategies().sort((a,b)=>b.net_pnl-a.net_pnl);
-  $('#comparison').innerHTML=rows.map(s=>`<tr><td>${esc(s.name)}</td><td>${esc(s.group)}</td><td>${s.closed}</td><td>${n(s.win_rate,2)}%</td><td class="${cls(s.net_pnl)}">${money(s.net_pnl)}</td><td class="${cls(s.avg_roi)}">${pct(s.avg_roi)}</td><td class="${cls(s.median_roi)}">${pct(s.median_roi)}</td><td>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</td><td class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</td><td>${s.dca_closed}</td></tr>`).join('');
+  const channel=selectedChannel();
+  $('#comparison').innerHTML=rows.map(s=>`<tr><td>${esc(s.name)}</td><td>${esc(s.group)}</td><td>${s.closed}</td><td>${n(s.win_rate,2)}%</td><td class="${cls(s.net_pnl)}">${money(s.net_pnl)}</td><td class="${cls(s.avg_roi)}">${pct(s.avg_roi)}</td><td class="${cls(s.median_roi)}">${pct(s.median_roi)}</td><td>${s.profit_factor>900?'∞':n(s.profit_factor,2)}</td><td class="${cls(s.max_drawdown_usdt)}">${money(s.max_drawdown_usdt)}</td><td>${s.dca_closed}</td><td>${channel?s.open:'—'}</td><td>${channel?money(s.current_capital_usdt):'—'}</td><td>${channel?s.peak_open_positions:'—'}</td><td>${channel?money(s.peak_capital_usdt):'—'}</td><td>${channel?money(s.recommended_capital_usdt):'Select channel'}</td></tr>`).join('');
 }
 function renderChannels(){
   const chosen=selectedChannel();
